@@ -1,0 +1,126 @@
+{
+  "tone": "friendly",
+  "pronoun": "you-only",
+  "headingStyle": "Title Case",
+  "headingLengthClass": "tight",
+  "ctaVerbs": [
+    {
+      "value": "view",
+      "count": 16
+    },
+    {
+      "value": "keyboard",
+      "count": 5
+    },
+    {
+      "value": "law",
+      "count": 5
+    },
+    {
+      "value": "access",
+      "count": 3
+    },
+    {
+      "value": "us",
+      "count": 3
+    },
+    {
+      "value": "sqe",
+      "count": 2
+    },
+    {
+      "value": "lsat",
+      "count": 2
+    },
+    {
+      "value": "learn",
+      "count": 2
+    },
+    {
+      "value": "contact",
+      "count": 1
+    },
+    {
+      "value": "close",
+      "count": 1
+    }
+  ],
+  "buttonPatterns": [
+    {
+      "value": "keyboard_arrow_down",
+      "count": 5
+    },
+    {
+      "value": "view bar prep",
+      "count": 2
+    },
+    {
+      "value": "view sqe prep",
+      "count": 2
+    },
+    {
+      "value": "view paralegal courses",
+      "count": 2
+    },
+    {
+      "value": "contact us",
+      "count": 1
+    },
+    {
+      "value": "access cle + cpe",
+      "count": 1
+    },
+    {
+      "value": "close",
+      "count": 1
+    },
+    {
+      "value": "view professional development",
+      "count": 1
+    },
+    {
+      "value": "us pre-law\n\ntake the first step in your legal education journey by preparing for law school with barbri’s proven lsat prep courses, study aids, and law school a",
+      "count": 1
+    },
+    {
+      "value": "view pre-law prep",
+      "count": 1
+    },
+    {
+      "value": "us law school\n\nsucceed in law school with trusted study aids, expertly written casebooks, and innovative learning resources from west academic and foundation pr",
+      "count": 1
+    },
+    {
+      "value": "view law school tools",
+      "count": 1
+    },
+    {
+      "value": "training for u.s. paralegals\n\nthe market demand is growing. invest in your future with our nationally acclaimed paralegal certificate course©\n\nview paralegal co",
+      "count": 1
+    },
+    {
+      "value": "sqe 1 prep course\n\nbarbri’s comprehensive sqe1 preparation course provides learners with a proven approach to successfully tackle the multiple-choice question (",
+      "count": 1
+    },
+    {
+      "value": "view sqe 1 prep",
+      "count": 1
+    }
+  ],
+  "sampleHeadings": [
+    "BARBRI is the Trusted Global Leader in Legal Education",
+    "Discover Personalized US Bar + SQE Prep Plus Expert Professional Development",
+    "BARBRI Bar Review",
+    "BARBRI SQE Prep",
+    "BARBRI for Professionals",
+    "BARBRI is the Trusted Global Leader in Legal Education",
+    "BARBRI is the Trusted Global Leader in Legal Education",
+    "Discover Personalized US Bar + SQE Prep Plus Expert Professional Development",
+    "BARBRI Bar Review",
+    "BARBRI SQE Prep"
+  ],
+  "stats": {
+    "buttons": 44,
+    "headings": 67
+  }
+}

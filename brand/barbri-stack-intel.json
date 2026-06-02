@@ -1,0 +1,12 @@
+{
+  "cms": [],
+  "analytics": [
+    "google-analytics",
+    "fullstory"
+  ],
+  "experimentation": [],
+  "signals": {
+    "scriptCount": 50,
+    "metaCount": 17
+  }
+}

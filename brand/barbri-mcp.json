@@ -1,0 +1,1478 @@
+{
+  "colors": {
+    "all": [
+      {
+        "hex": "#464f57",
+        "rgb": {
+          "r": 70,
+          "g": 79,
+          "b": 87,
+          "a": 1
+        },
+        "hsl": {
+          "h": 208,
+          "s": 11,
+          "l": 31
+        },
+        "count": 1942,
+        "contexts": [
+          "text",
+          "border",
+          "background"
+        ]
+      },
+      {
+        "hex": "#000000",
+        "rgb": {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 1
+        },
+        "hsl": {
+          "h": 0,
+          "s": 0,
+          "l": 0
+        },
+        "count": 282,
+        "contexts": [
+          "text",
+          "border"
+        ]
+      },
+      {
+        "hex": "#ffffff",
+        "rgb": {
+          "r": 255,
+          "g": 255,
+          "b": 255,
+          "a": 1
+        },
+        "hsl": {
+          "h": 0,
+          "s": 0,
+          "l": 100
+        },
+        "count": 205,
+        "contexts": [
+          "background",
+          "text",
+          "border"
+        ]
+      },
+      {
+        "hex": "#212529",
+        "rgb": {
+          "r": 33,
+          "g": 37,
+          "b": 41,
+          "a": 1
+        },
+        "hsl": {
+          "h": 210,
+          "s": 11,
+          "l": 15
+        },
+        "count": 79,
+        "contexts": [
+          "text",
+          "border"
+        ]
+      },
+      {
+        "hex": "#2a5488",
+        "rgb": {
+          "r": 42,
+          "g": 84,
+          "b": 136,
+          "a": 1
+        },
+        "hsl": {
+          "h": 213,
+          "s": 53,
+          "l": 35
+        },
+        "count": 71,
+        "contexts": [
+          "border",
+          "text"
+        ]
+      },
+      {
+        "hex": "#001722",
+        "rgb": {
+          "r": 0,
+          "g": 23,
+          "b": 34,
+          "a": 1
+        },
+        "hsl": {
+          "h": 199,
+          "s": 100,
+          "l": 7
+        },
+        "count": 30,
+        "contexts": [
+          "background",
+          "text",
+          "border"
+        ]
+      },
+      {
+        "hex": "#235ba8",
+        "rgb": {
+          "r": 35,
+          "g": 91,
+          "b": 168,
+          "a": 1
+        },
+        "hsl": {
+          "h": 215,
+          "s": 66,
+          "l": 40
+        },
+        "count": 21,
+        "contexts": [
+          "text",
+          "border"
+        ]
+      },
+      {
+        "hex": "#ececec",
+        "rgb": {
+          "r": 236,
+          "g": 236,
+          "b": 236,
+          "a": 1
+        },
+        "hsl": {
+          "h": 0,
+          "s": 0,
+          "l": 93
+        },
+        "count": 19,
+        "contexts": [
+          "background"
+        ]
+      },
+      {
+        "hex": "#f2f7fc",
+        "rgb": {
+          "r": 242,
+          "g": 247,
+          "b": 252,
+          "a": 1
+        },
+        "hsl": {
+          "h": 210,
+          "s": 63,
+          "l": 97
+        },
+        "count": 8,
+        "contexts": [
+          "background",
+          "border"
+        ]
+      },
+      {
+        "hex": "#155724",
+        "rgb": {
+          "r": 21,
+          "g": 87,
+          "b": 36,
+          "a": 1
+        },
+        "hsl": {
+          "h": 134,
+          "s": 61,
+          "l": 21
+        },
+        "count": 7,
+        "contexts": [
+          "text",
+          "border"
+        ]
+      },
+      {
+        "hex": "#343a40",
+        "rgb": {
+          "r": 52,
+          "g": 58,
+          "b": 64,
+          "a": 1
+        },
+        "hsl": {
+          "h": 210,
+          "s": 10,
+          "l": 23
+        },
+        "count": 1,
+        "contexts": [
+          "background"
+        ]
+      },
+      {
+        "hex": "#cccccc",
+        "rgb": {
+          "r": 204,
+          "g": 204,
+          "b": 204,
+          "a": 1
+        },
+        "hsl": {
+          "h": 0,
+          "s": 0,
+          "l": 80
+        },
+        "count": 1,
+        "contexts": [
+          "border"
+        ]
+      },
+      {
+        "hex": "#869c9e",
+        "rgb": {
+          "r": 134,
+          "g": 156,
+          "b": 158,
+          "a": 1
+        },
+        "hsl": {
+          "h": 185,
+          "s": 11,
+          "l": 57
+        },
+        "count": 1,
+        "contexts": [
+          "background"
+        ]
+      },
+      {
+        "hex": "#2e2e2e",
+        "rgb": {
+          "r": 46,
+          "g": 46,
+          "b": 46,
+          "a": 1
+        },
+        "hsl": {
+          "h": 0,
+          "s": 0,
+          "l": 18
+        },
+        "count": 1,
+        "contexts": [
+          "background"
+        ]
+      }
+    ]
+  },
+  "regions": [
+    {
+      "role": "testimonials",
+      "tag": "section",
+      "bounds": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "heading": null,
+      "buttonCount": 0,
+      "cardCount": 0,
+      "className": "portlet"
+    },
+    {
+      "role": "nav",
+      "tag": "nav",
+      "bounds": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "heading": null,
+      "buttonCount": 0,
+      "cardCount": 0,
+      "className": "bg-dark cadmin quick-access-nav text-center text-white"
+    },
+    {
+      "role": "nav",
+      "tag": "header",
+      "bounds": {
+        "x": 0,
+        "y": 0,
+        "w": 1280,
+        "h": 145
+      },
+      "heading": null,
+      "buttonCount": 20,
+      "cardCount": 84,
+      "className": "headerSection trs"
+    },
+    {
+      "role": "nav",
+      "tag": "nav",
+      "bounds": {
+        "x": 117.15625,
+        "y": 0,
+        "w": 864.875,
+        "h": 72
+      },
+      "heading": null,
+      "buttonCount": 16,
+      "cardCount": 75,
+      "className": "navbar navbar-expand-lg d-inline-flex justify-content-between align-items-center primary-menu"
+    },
+    {
+      "role": "testimonials",
+      "tag": "section",
+      "bounds": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "heading": null,
+      "buttonCount": 2,
+      "cardCount": 2,
+      "className": "portlet"
+    },
+    {
+      "role": "content",
+      "tag": "section",
+      "bounds": {
+        "x": 0,
+        "y": 73,
+        "w": 1280,
+        "h": 0
+      },
+      "heading": null,
+      "buttonCount": 0,
+      "cardCount": 0,
+      "className": "portlet"
+    },
+    {
+      "role": "nav",
+      "tag": "nav",
+      "bounds": {
+        "x": 0,
+        "y": 73,
+        "w": 1280,
+        "h": 72
+      },
+      "heading": null,
+      "buttonCount": 1,
+      "cardCount": 1,
+      "className": "navbar navbar-expand-lg row justify-content-between align-items-center secondary-menu"
+    },
+    {
+      "role": "testimonials",
+      "tag": "section",
+      "bounds": {
+        "x": 0,
+        "y": 145,
+        "w": 1280,
+        "h": 13156.6875
+      },
+      "heading": "BARBRI is the Trusted Global Leader in Legal Education",
+      "buttonCount": 42,
+      "cardCount": 99,
+      "className": "container-fluid p-0"
+    },
+    {
+      "role": "content",
+      "tag": "section",
+      "bounds": {
+        "x": 0,
+        "y": 145,
+        "w": 1280,
+        "h": 466
+      },
+      "heading": "BARBRI is the Trusted Global Leader in Legal Education",
+      "buttonCount": 0,
+      "cardCount": 0,
+      "className": "portlet"
+    },
+    {
+      "role": "content",
+      "tag": "section",
+      "bounds": {
+        "x": 0,
+        "y": 145,
+        "w": 1280,
+        "h": 466
+      },
+      "heading": "BARBRI is the Trusted Global Leader in Legal Education",
+      "buttonCount": 0,
+      "cardCount": 0,
+      "className": "banner-area"
+    },
+    {
+      "role": "content",
+      "tag": "section",
+      "bounds": {
+        "x": 0,
+        "y": 611,
+        "w": 1280,
+        "h": 176
+      },
+      "heading": null,
+      "buttonCount": 2,
+      "cardCount": 1,
+      "className": "portlet"
+    },
+    {
+      "role": "content",
+      "tag": "section",
+      "bounds": {
+        "x": 0,
+        "y": 611,
+        "w": 1280,
+        "h": 176
+      },
+      "heading": null,
+      "buttonCount": 2,
+      "cardCount": 1,
+      "className": "welcome-strafford custom-announcement-area learning_journey_every_step pb-0 pt-5 section"
+    },
+    {
+      "role": "testimonials",
+      "tag": "section",
+      "bounds": {
+        "x": 0,
+        "y": 787,
+        "w": 1280,
+        "h": 1109.6875
+      },
+      "heading": "Discover Personalized US Bar + SQE Prep Plus Expert Professional Development",
+      "buttonCount": 6,
+      "cardCount": 13,
+      "className": "portlet"
+    },
+    {
+      "role": "testimonials",
+      "tag": "section",
+      "bounds": {
+        "x": 0,
+        "y": 787,
+        "w": 1280,
+        "h": 1109.6875
+      },
+      "heading": "Discover Personalized US Bar + SQE Prep Plus Expert Professional Development",
+      "buttonCount": 6,
+      "cardCount": 13,
+      "className": "section qualificatoin_exam_prep"
+    },
+    {
+      "role": "content",
+      "tag": "section",
+      "bounds": {
+        "x": 0,
+        "y": 1896.6875,
+        "w": 1280,
+        "h": 885
+      },
+      "heading": "BARBRI Helps You Achieve Your Ambitions",
+      "buttonCount": 6,
+      "cardCount": 9,
+      "className": "portlet"
+    },
+    {
+      "role": "content",
+      "tag": "section",
+      "bounds": {
+        "x": 0,
+        "y": 1896.6875,
+        "w": 1280,
+        "h": 885
+      },
+      "heading": "BARBRI Helps You Achieve Your Ambitions",
+      "buttonCount": 6,
+      "cardCount": 9,
+      "className": "section learning_journey_every_step pt-0"
+    },
+    {
+      "role": "testimonials",
+      "tag": "section",
+      "bounds": {
+        "x": 0,
+        "y": 2781.6875,
+        "w": 1280,
+        "h": 644
+      },
+      "heading": "BARBRI Bar Prep: Meets You Where You Are",
+      "buttonCount": 1,
+      "cardCount": 4,
+      "className": "portlet"
+    },
+    {
+      "role": "testimonials",
+      "tag": "section",
+      "bounds": {
+        "x": 0,
+        "y": 2781.6875,
+        "w": 1280,
+        "h": 644
+      },
+      "heading": "BARBRI Bar Prep: Meets You Where You Are",
+      "buttonCount": 1,
+      "cardCount": 4,
+      "className": "section bar_prep pt-0"
+    },
+    {
+      "role": "content",
+      "tag": "section",
+      "bounds": {
+        "x": 0,
+        "y": 3425.6875,
+        "w": 1280,
+        "h": 397
+      },
+      "heading": null,
+      "buttonCount": 0,
+      "cardCount": 4,
+      "className": "portlet"
+    },
+    {
+      "role": "content",
+      "tag": "section",
+      "bounds": {
+        "x": 0,
+        "y": 3425.6875,
+        "w": 1280,
+        "h": 397
+      },
+      "heading": null,
+      "buttonCount": 0,
+      "cardCount": 4,
+      "className": "section gray_column_area pt-0"
+    },
+    {
+      "role": "pricing",
+      "tag": "section",
+      "bounds": {
+        "x": 0,
+        "y": 3822.6875,
+        "w": 1280,
+        "h": 355
+      },
+      "heading": null,
+      "buttonCount": 0,
+      "cardCount": 1,
+      "className": "portlet"
+    },
+    {
+      "role": "pricing",
+      "tag": "section",
+      "bounds": {
+        "x": 0,
+        "y": 3822.6875,
+        "w": 1280,
+        "h": 355
+      },
+      "heading": null,
+      "buttonCount": 0,
+      "cardCount": 1,
+      "className": "section testimonial_area single_testimonials "
+    },
+    {
+      "role": "hero",
+      "tag": "section",
+      "bounds": {
+        "x": 0,
+        "y": 4177.6875,
+        "w": 1280,
+        "h": 466
+      },
+      "heading": "BARBRI SQE Prep",
+      "buttonCount": 1,
+      "cardCount": 1,
+      "className": "portlet"
+    },
+    {
+      "role": "hero",
+      "tag": "section",
+      "bounds": {
+        "x": 0,
+        "y": 4177.6875,
+        "w": 1280,
+        "h": 466
+      },
+      "heading": "BARBRI SQE Prep",
+      "buttonCount": 1,
+      "cardCount": 1,
+      "className": "section bar_prep pt-0"
+    },
+    {
+      "role": "testimonials",
+      "tag": "section",
+      "bounds": {
+        "x": 0,
+        "y": 4643.6875,
+        "w": 1280,
+        "h": 622
+      },
+      "heading": null,
+      "buttonCount": 0,
+      "cardCount": 4,
+      "className": "portlet"
+    },
+    {
+      "role": "testimonials",
+      "tag": "section",
+      "bounds": {
+        "x": 0,
+        "y": 4623.6875,
+        "w": 1280,
+        "h": 642
+      },
+      "heading": null,
+      "buttonCount": 0,
+      "cardCount": 4,
+      "className": "section testimonial_area multiple_testimonials"
+    },
+    {
+      "role": "content",
+      "tag": "section",
+      "bounds": {
+        "x": 0,
+        "y": 5265.6875,
+        "w": 1280,
+        "h": 818
+      },
+      "heading": "SQE 1 Prep Course",
+      "buttonCount": 4,
+      "cardCount": 6,
+      "className": "portlet"
+    },
+    {
+      "role": "content",
+      "tag": "section",
+      "bounds": {
+        "x": 0,
+        "y": 5295.6875,
+        "w": 1280,
+        "h": 788
+      },
+      "heading": "SQE 1 Prep Course",
+      "buttonCount": 4,
+      "cardCount": 6,
+      "className": "section sqe_scholarships_options pt-0"
+    },
+    {
+      "role": "hero",
+      "tag": "section",
+      "bounds": {
+        "x": 0,
+        "y": 6083.6875,
+        "w": 1280,
+        "h": 574
+      },
+      "heading": "BARBRI LSAT Prep Courses",
+      "buttonCount": 1,
+      "cardCount": 1,
+      "className": "portlet"
+    },
+    {
+      "role": "hero",
+      "tag": "section",
+      "bounds": {
+        "x": 0,
+        "y": 6083.6875,
+        "w": 1280,
+        "h": 574
+      },
+      "heading": "BARBRI LSAT Prep Courses",
+      "buttonCount": 1,
+      "cardCount": 1,
+      "className": "section bar_prep pt-0"
+    },
+    {
+      "role": "testimonials",
+      "tag": "section",
+      "bounds": {
+        "x": 0,
+        "y": 6657.6875,
+        "w": 1280,
+        "h": 291
+      },
+      "heading": null,
+      "buttonCount": 0,
+      "cardCount": 1,
+      "className": "portlet"
+    },
+    {
+      "role": "testimonials",
+      "tag": "section",
+      "bounds": {
+        "x": 0,
+        "y": 6657.6875,
+        "w": 1280,
+        "h": 291
+      },
+      "heading": null,
+      "buttonCount": 0,
+      "cardCount": 1,
+      "className": "section testimonial_area single_testimonials "
+    },
+    {
+      "role": "testimonials",
+      "tag": "section",
+      "bounds": {
+        "x": 0,
+        "y": 6948.6875,
+        "w": 1280,
+        "h": 917
+      },
+      "heading": "Get Additional Pre-Law Support",
+      "buttonCount": 8,
+      "cardCount": 12,
+      "className": "portlet"
+    },
+    {
+      "role": "testimonials",
+      "tag": "section",
+      "bounds": {
+        "x": 0,
+        "y": 6948.6875,
+        "w": 1280,
+        "h": 917
+      },
+      "heading": "Get Additional Pre-Law Support",
+      "buttonCount": 8,
+      "cardCount": 12,
+      "className": "section learning_journey_every_step pt-0"
+    },
+    {
+      "role": "hero",
+      "tag": "section",
+      "bounds": {
+        "x": 0,
+        "y": 7865.6875,
+        "w": 1280,
+        "h": 802
+      },
+      "heading": "BARBRI Professional Education",
+      "buttonCount": 2,
+      "cardCount": 1,
+      "className": "portlet"
+    },
+    {
+      "role": "hero",
+      "tag": "section",
+      "bounds": {
+        "x": 0,
+        "y": 7865.6875,
+        "w": 1280,
+        "h": 802
+      },
+      "heading": "BARBRI Professional Education",
+      "buttonCount": 2,
+      "cardCount": 1,
+      "className": "section bar_prep"
+    },
+    {
+      "role": "content",
+      "tag": "section",
+      "bounds": {
+        "x": 0,
+        "y": 8667.6875,
+        "w": 1280,
+        "h": 380
+      },
+      "heading": null,
+      "buttonCount": 0,
+      "cardCount": 4,
+      "className": "portlet"
+    },
+    {
+      "role": "content",
+      "tag": "section",
+      "bounds": {
+        "x": 0,
+        "y": 8667.6875,
+        "w": 1280,
+        "h": 380
+      },
+      "heading": null,
+      "buttonCount": 0,
+      "cardCount": 4,
+      "className": "section gray_column_area professional_training pt-0"
+    },
+    {
+      "role": "testimonials",
+      "tag": "section",
+      "bounds": {
+        "x": 0,
+        "y": 9047.6875,
+        "w": 1280,
+        "h": 462
+      },
+      "heading": null,
+      "buttonCount": 0,
+      "cardCount": 4,
+      "className": "portlet"
+    },
+    {
+      "role": "testimonials",
+      "tag": "section",
+      "bounds": {
+        "x": 0,
+        "y": 9027.6875,
+        "w": 1280,
+        "h": 482
+      },
+      "heading": null,
+      "buttonCount": 0,
+      "cardCount": 4,
+      "className": "section testimonial_area multiple_testimonials"
+    },
+    {
+      "role": "content",
+      "tag": "section",
+      "bounds": {
+        "x": 0,
+        "y": 9509.6875,
+        "w": 1280,
+        "h": 845
+      },
+      "heading": "E-Discovery Certification + Training",
+      "buttonCount": 6,
+      "cardCount": 9,
+      "className": "portlet"
+    },
+    {
+      "role": "content",
+      "tag": "section",
+      "bounds": {
+        "x": 0,
+        "y": 9557.6875,
+        "w": 1280,
+        "h": 797
+      },
+      "heading": "E-Discovery Certification + Training",
+      "buttonCount": 6,
+      "cardCount": 9,
+      "className": "section learning_journey_every_step pt-0"
+    },
+    {
+      "role": "pricing",
+      "tag": "section",
+      "bounds": {
+        "x": 0,
+        "y": 10354.6875,
+        "w": 1280,
+        "h": 466
+      },
+      "heading": "AI Resources",
+      "buttonCount": 1,
+      "cardCount": 5,
+      "className": "portlet"
+    },
+    {
+      "role": "pricing",
+      "tag": "section",
+      "bounds": {
+        "x": 0,
+        "y": 10354.6875,
+        "w": 1280,
+        "h": 466
+      },
+      "heading": "AI Resources",
+      "buttonCount": 1,
+      "cardCount": 5,
+      "className": "banner-area"
+    },
+    {
+      "role": "testimonials",
+      "tag": "section",
+      "bounds": {
+        "x": 0,
+        "y": 10900.6875,
+        "w": 1280,
+        "h": 967
+      },
+      "heading": "Explore Partnerships",
+      "buttonCount": 1,
+      "cardCount": 7,
+      "className": "portlet"
+    },
+    {
+      "role": "testimonials",
+      "tag": "section",
+      "bounds": {
+        "x": 0,
+        "y": 10900.6875,
+        "w": 1280,
+        "h": 967
+      },
+      "heading": "Explore Partnerships",
+      "buttonCount": 1,
+      "cardCount": 7,
+      "className": "section explore_partbership pt-0"
+    },
+    {
+      "role": "hero",
+      "tag": "section",
+      "bounds": {
+        "x": 0,
+        "y": 11867.6875,
+        "w": 1280,
+        "h": 679
+      },
+      "heading": "Your SQE and Legal Education Partner",
+      "buttonCount": 1,
+      "cardCount": 5,
+      "className": "portlet"
+    },
+    {
+      "role": "hero",
+      "tag": "section",
+      "bounds": {
+        "x": 0,
+        "y": 11867.6875,
+        "w": 1280,
+        "h": 679
+      },
+      "heading": "Your SQE and Legal Education Partner",
+      "buttonCount": 1,
+      "cardCount": 5,
+      "className": "section explore_partbership pt-0"
+    },
+    {
+      "role": "testimonials",
+      "tag": "section",
+      "bounds": {
+        "x": 0,
+        "y": 12546.6875,
+        "w": 1280,
+        "h": 755
+      },
+      "heading": "Partner with BARBRI to Help Train the Next Generation of Legal Professionals",
+      "buttonCount": 1,
+      "cardCount": 7,
+      "className": "portlet"
+    },
+    {
+      "role": "testimonials",
+      "tag": "section",
+      "bounds": {
+        "x": 0,
+        "y": 12594.6875,
+        "w": 1280,
+        "h": 707
+      },
+      "heading": "Partner with BARBRI to Help Train the Next Generation of Legal Professionals",
+      "buttonCount": 1,
+      "cardCount": 7,
+      "className": "section explore_partbership pt-0"
+    },
+    {
+      "role": "footer",
+      "tag": "footer",
+      "bounds": {
+        "x": 0,
+        "y": 13301.6875,
+        "w": 1280,
+        "h": 834
+      },
+      "heading": "Legal",
+      "buttonCount": 0,
+      "cardCount": 31,
+      "className": "footer-area"
+    },
+    {
+      "role": "content",
+      "tag": "section",
+      "bounds": {
+        "x": 15,
+        "y": 13351.6875,
+        "w": 1250,
+        "h": 0
+      },
+      "heading": null,
+      "buttonCount": 0,
+      "cardCount": 0,
+      "className": "portlet"
+    },
+    {
+      "role": "testimonials",
+      "tag": "section",
+      "bounds": {
+        "x": 15,
+        "y": 13351.6875,
+        "w": 1250,
+        "h": 414
+      },
+      "heading": "Legal",
+      "buttonCount": 0,
+      "cardCount": 24,
+      "className": "portlet"
+    },
+    {
+      "role": "content",
+      "tag": "section",
+      "bounds": {
+        "x": 0,
+        "y": 13825.6875,
+        "w": 1280,
+        "h": 210
+      },
+      "heading": null,
+      "buttonCount": 0,
+      "cardCount": 7,
+      "className": "portlet"
+    }
+  ],
+  "componentClusters": [
+    {
+      "kind": "button",
+      "structuralHash": "button>span",
+      "instanceCount": 6,
+      "variants": [
+        {
+          "css": {
+            "background": "rgba(0, 0, 0, 0)",
+            "color": "rgb(70, 79, 87)",
+            "padding": "0px 0px 0px 0px",
+            "borderRadius": "0px",
+            "border": "0px none rgb(70, 79, 87)",
+            "fontSize": "16px",
+            "fontWeight": "400"
+          },
+          "instanceCount": 6
+        }
+      ]
+    },
+    {
+      "kind": "button",
+      "structuralHash": "a>span>span",
+      "instanceCount": 1,
+      "variants": [
+        {
+          "css": {
+            "background": "rgb(0, 23, 34)",
+            "color": "rgb(255, 255, 255)",
+            "padding": "0px 16px 0px 16px",
+            "borderRadius": "5px",
+            "border": "0px none rgb(255, 255, 255)",
+            "fontSize": "18px",
+            "fontWeight": "500"
+          },
+          "instanceCount": 1
+        }
+      ]
+    },
+    {
+      "kind": "button",
+      "structuralHash": "a",
+      "instanceCount": 25,
+      "variants": [
+        {
+          "css": {
+            "background": "rgb(255, 255, 255)",
+            "color": "rgb(0, 23, 34)",
+            "padding": "0px 16px 0px 16px",
+            "borderRadius": "5px",
+            "border": "1px solid rgb(0, 23, 34)",
+            "fontSize": "18px",
+            "fontWeight": "500"
+          },
+          "instanceCount": 2
+        },
+        {
+          "css": {
+            "background": "rgb(0, 23, 34)",
+            "color": "rgb(255, 255, 255)",
+            "padding": "0px 16px 0px 16px",
+            "borderRadius": "5px",
+            "border": "0px none rgb(255, 255, 255)",
+            "fontSize": "18px",
+            "fontWeight": "500"
+          },
+          "instanceCount": 23
+        }
+      ]
+    },
+    {
+      "kind": "card",
+      "structuralHash": "div>div>div>div",
+      "instanceCount": 4,
+      "variants": [
+        {
+          "css": {
+            "background": "rgba(0, 0, 0, 0)",
+            "color": "rgb(70, 79, 87)",
+            "padding": "0px 0px 0px 0px",
+            "borderRadius": "0px",
+            "border": "0px none rgb(70, 79, 87)",
+            "fontSize": "16px",
+            "fontWeight": "300"
+          },
+          "instanceCount": 1
+        },
+        {
+          "css": {
+            "background": "rgb(236, 236, 236)",
+            "color": "rgb(70, 79, 87)",
+            "padding": "0px 0px 0px 0px",
+            "borderRadius": "0px",
+            "border": "0px none rgb(70, 79, 87)",
+            "fontSize": "16px",
+            "fontWeight": "300"
+          },
+          "instanceCount": 3
+        }
+      ]
+    },
+    {
+      "kind": "card",
+      "structuralHash": "div>div>p",
+      "instanceCount": 3,
+      "variants": [
+        {
+          "css": {
+            "background": "rgba(0, 0, 0, 0)",
+            "color": "rgb(70, 79, 87)",
+            "padding": "48px 32px 106px 32px",
+            "borderRadius": "0px",
+            "border": "0px none rgb(70, 79, 87)",
+            "fontSize": "16px",
+            "fontWeight": "300"
+          },
+          "instanceCount": 3
+        }
+      ]
+    },
+    {
+      "kind": "button",
+      "structuralHash": "div>div>div",
+      "instanceCount": 12,
+      "variants": [
+        {
+          "css": {
+            "background": "rgb(236, 236, 236)",
+            "color": "rgb(70, 79, 87)",
+            "padding": "0px 0px 0px 0px",
+            "borderRadius": "0px",
+            "border": "0px none rgb(70, 79, 87)",
+            "fontSize": "16px",
+            "fontWeight": "300"
+          },
+          "instanceCount": 12
+        }
+      ]
+    },
+    {
+      "kind": "card",
+      "structuralHash": "div>div>p>p>p",
+      "instanceCount": 12,
+      "variants": [
+        {
+          "css": {
+            "background": "rgba(0, 0, 0, 0)",
+            "color": "rgb(70, 79, 87)",
+            "padding": "106px 24px 180px 24px",
+            "borderRadius": "0px",
+            "border": "0px none rgb(70, 79, 87)",
+            "fontSize": "16px",
+            "fontWeight": "300"
+          },
+          "instanceCount": 12
+        }
+      ]
+    },
+    {
+      "kind": "card",
+      "structuralHash": "blockquote",
+      "instanceCount": 6,
+      "variants": [
+        {
+          "css": {
+            "background": "rgba(0, 0, 0, 0)",
+            "color": "rgb(70, 79, 87)",
+            "padding": "0px 0px 0px 0px",
+            "borderRadius": "0px",
+            "border": "0px none rgb(70, 79, 87)",
+            "fontSize": "18px",
+            "fontWeight": "300"
+          },
+          "instanceCount": 6
+        }
+      ]
+    },
+    {
+      "kind": "button",
+      "structuralHash": "button>div",
+      "instanceCount": 1,
+      "variants": [
+        {
+          "css": {
+            "background": "rgb(46, 46, 46)",
+            "color": "rgb(0, 0, 0)",
+            "padding": "0px 0px 0px 0px",
+            "borderRadius": "50%",
+            "border": "0px none rgb(0, 0, 0)",
+            "fontSize": "16px",
+            "fontWeight": "400"
+          },
+          "instanceCount": 1
+        }
+      ]
+    }
+  ],
+  "accessibility": {
+    "remediation": []
+  },
+  "cssHealth": {
+    "sheets": [
+      {
+        "url": "https://www.barbri.com/",
+        "totalBytes": 1180,
+        "usedBytes": 200,
+        "unusedBytes": 980,
+        "unusedPercent": 83
+      },
+      {
+        "url": "https://www.barbri.com/",
+        "totalBytes": 126,
+        "usedBytes": 126,
+        "unusedBytes": 0,
+        "unusedPercent": 0
+      },
+      {
+        "url": "https://www.barbri.com/o/barbri-global-theme/css/clay.css?browserId=chrome&themeId=barbriglobaltheme_WAR_barbriglobaltheme&minifierType=css&languageId=en_US&t=1779926164000",
+        "totalBytes": 570770,
+        "usedBytes": 12675,
+        "unusedBytes": 558095,
+        "unusedPercent": 98
+      },
+      {
+        "url": "https://www.barbri.com/combo?browserId=chrome&minifierType=css&themeId=barbriglobaltheme_WAR_barbriglobaltheme&languageId=en_US&barbri_global_product_selector_BarbriGlobalProductSelectorPortlet:%2Fo%2Fbarbri.global.web%2Fcss%2Fmain.css&com_barbri_my_profile_links_BarbriMyProfileLinksPortlet:%2Fo%2Fbarbri.my.profile.links%2Fcss%2Fmain.css&com_barbri_okta_ssu_connect_BarbriOktaSsuSignInPortlet:%2Fo%2Fbarbri.okta.ssu.connect%2Fcss%2Fmain.css&com_barbri_portal_barbri_cart_CartPortlet:%2Fo%2Fcom.barbri.portal.barbri.cart%2Fcss%2Fmain.css&com_barbri_portal_cache_invoker_CacheInvokerPortlet:%2Fo%2Fcom.barbri.portal.cache.invoker%2Fcss%2Fmain.css&com_barbri_portal_cart_CartPortlet:%2Fo%2Fcom.barbri.portal.cart%2Fcss%2Fmain.css&com_barbri_portal_maintenance_BarbriMaintenanceWidgetPortlet:%2Fo%2Fcom.barbri.portal.maintenance%2Fcss%2Fmain.css&com_barbri_portal_testimonials_display_TestimonialsDisplayPortlet_INSTANCE_V28Fe5R47I5n:%2Fo%2Fcom.barbri.portal.testimonils.display%2Fcss%2Fmain.css&com_barbri_resource_center_search_BarbriLifecycleContentPortlet_INSTANCE_Resource_Center_CTA:%2Fo%2Fbarbri.resource.center.widgets%2Fcss%2Fmain.css&com_liferay_announcements_web_portlet_AnnouncementsPortlet_INSTANCE_maintenanceitem:%2Fo%2Fannouncements-web%2Fannouncements%2Fcss%2Fmain.css&com_liferay_commerce_product_asset_categories_navigation_web_internal_portlet_CPAssetCategoriesNavigationPortlet_INSTANCE_cpAssetCategoriesNavigationPortlet_navigation_menu:%2Fo%2Fcommerce-product-asset-categories-navigation-web%2Fcss%2Fmain.css&com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_4bA0Qnwhgl3e:%2Fo%2Fjournal-content-web%2Fcss%2Fmain.css&com_liferay_portal_search_web_search_bar_portlet_SearchBarPortlet_INSTANCE_templateSearch:%2Fo%2Fportal-search-web%2Fcss%2Fmain.css&com_liferay_product_navigation_product_menu_web_portlet_ProductMenuPortlet:%2Fo%2Fproduct-navigation-product-menu-web%2Fcss%2Fmain.css&com_liferay_product_navigation_user_personal_bar_web_portlet_ProductNavigationUserPersonalBarPortlet:%2Fo%2Fproduct-navigation-user-personal-bar-web%2Fcss%2Fmain.css&com_liferay_site_navigation_menu_web_portlet_SiteNavigationMenuPortlet:%2Fo%2Fsite-navigation-menu-web%2Fcss%2Fmain.css&t=1779926164000",
+        "totalBytes": 28003,
+        "usedBytes": 747,
+        "unusedBytes": 27256,
+        "unusedPercent": 97
+      },
+      {
+        "url": "https://www.barbri.com/",
+        "totalBytes": 240,
+        "usedBytes": 161,
+        "unusedBytes": 79,
+        "unusedPercent": 33
+      },
+      {
+        "url": "https://www.barbri.com/",
+        "totalBytes": 333,
+        "usedBytes": 124,
+        "unusedBytes": 209,
+        "unusedPercent": 63
+      },
+      {
+        "url": "https://www.barbri.com/",
+        "totalBytes": 53,
+        "usedBytes": 0,
+        "unusedBytes": 53,
+        "unusedPercent": 100
+      },
+      {
+        "url": "https://www.barbri.com/o/frontend-js-aui-web/alloy_ui.css?&mac=favIEq7hPo8AEd6k+N5OVADEEls=&browserId=chrome&languageId=en_US&minifierType=css&themeId=barbriglobaltheme_WAR_barbriglobaltheme",
+        "totalBytes": 92,
+        "usedBytes": 74,
+        "unusedBytes": 18,
+        "unusedPercent": 20
+      },
+      {
+        "url": "https://cdn-c6fyb4a9ezc9hjb6.a01.azurefd.net/o/barbri-global-theme/css/barbri_custom_v22.css",
+        "totalBytes": 249348,
+        "usedBytes": 14081,
+        "unusedBytes": 235267,
+        "unusedPercent": 94
+      },
+      {
+        "url": "https://www.barbri.com/o/barbri-global-theme/css/main.css?browserId=chrome&themeId=barbriglobaltheme_WAR_barbriglobaltheme&minifierType=css&languageId=en_US&t=1779926164000",
+        "totalBytes": 85973,
+        "usedBytes": 3164,
+        "unusedBytes": 82809,
+        "unusedPercent": 96
+      },
+      {
+        "url": "https://www.barbri.com/o/barbri-global-theme/css/lib/owl.carousel.min.css",
+        "totalBytes": 3351,
+        "usedBytes": 1299,
+        "unusedBytes": 2052,
+        "unusedPercent": 61
+      },
+      {
+        "url": "https://www.barbri.com/",
+        "totalBytes": 123,
+        "usedBytes": 0,
+        "unusedBytes": 123,
+        "unusedPercent": 100
+      },
+      {
+        "url": "https://www.barbri.com/",
+        "totalBytes": 221,
+        "usedBytes": 0,
+        "unusedBytes": 221,
+        "unusedPercent": 100
+      },
+      {
+        "url": "https://www.barbri.com/",
+        "totalBytes": 0,
+        "usedBytes": 0,
+        "unusedBytes": 0,
+        "unusedPercent": 0
+      },
+      {
+        "url": "https://www.barbri.com/",
+        "totalBytes": 120,
+        "usedBytes": 118,
+        "unusedBytes": 2,
+        "unusedPercent": 2
+      },
+      {
+        "url": "https://www.barbri.com/",
+        "totalBytes": 120,
+        "usedBytes": 0,
+        "unusedBytes": 120,
+        "unusedPercent": 100
+      },
+      {
+        "url": "https://www.barbri.com/",
+        "totalBytes": 320,
+        "usedBytes": 32,
+        "unusedBytes": 288,
+        "unusedPercent": 90
+      },
+      {
+        "url": "https://www.barbri.com/",
+        "totalBytes": 137,
+        "usedBytes": 135,
+        "unusedBytes": 2,
+        "unusedPercent": 1
+      },
+      {
+        "url": "https://barbri.my.site.com/ESWBarbriWebMessaging1701202809803/assets/styles/bootstrap.min.css",
+        "totalBytes": 11856,
+        "usedBytes": 1388,
+        "unusedBytes": 10468,
+        "unusedPercent": 88
+      },
+      {
+        "url": "https://www.barbri.com/o/frontend-js-web/liferay/modal/Modal.css",
+        "totalBytes": 1923,
+        "usedBytes": 0,
+        "unusedBytes": 1923,
+        "unusedPercent": 100
+      },
+      {
+        "url": "https://www.barbri.com/o/frontend-js-web/css/notification.css",
+        "totalBytes": 202,
+        "usedBytes": 0,
+        "unusedBytes": 202,
+        "unusedPercent": 100
+      },
+      {
+        "url": "https://www.barbri.com/combo/?browserId=chrome&minifierType=&languageId=en_US&t=1779926154812&/o/frontend-js-aui-web/aui/widget-base/assets/skins/sam/widget-base.css",
+        "totalBytes": 321,
+        "usedBytes": 0,
+        "unusedBytes": 321,
+        "unusedPercent": 100
+      }
+    ],
+    "totalBytes": 954812,
+    "usedBytes": 34324,
+    "unusedBytes": 920488,
+    "unusedPercent": 96,
+    "importantCount": 1536,
+    "duplicates": 16844,
+    "vendorPrefixes": {
+      "webkit": 167,
+      "moz": 81,
+      "ms": 86,
+      "o": 4
+    },
+    "keyframes": [
+      {
+        "name": "slide",
+        "steps": 2
+      },
+      {
+        "name": "color-change",
+        "steps": 2
+      },
+      {
+        "name": "flip-1",
+        "steps": 2
+      },
+      {
+        "name": "squidge-1",
+        "steps": 5
+      },
+      {
+        "name": "flip-2",
+        "steps": 2
+      },
+      {
+        "name": "squidge-2",
+        "steps": 5
+      },
+      {
+        "name": "flip-3",
+        "steps": 2
+      },
+      {
+        "name": "squidge-3",
+        "steps": 5
+      },
+      {
+        "name": "flip-4",
+        "steps": 2
+      },
+      {
+        "name": "squidge-4",
+        "steps": 5
+      },
+      {
+        "name": "load",
+        "steps": 3
+      },
+      {
+        "name": "loadingE",
+        "steps": 2
+      },
+      {
+        "name": "load",
+        "steps": 3
+      },
+      {
+        "name": "ripple",
+        "steps": 2
+      },
+      {
+        "name": "fadeInDown",
+        "steps": 2
+      }
+    ],
+    "specificity": {
+      "max": [
+        2,
+        10,
+        12
+      ],
+      "average": [
+        0.03,
+        2.17,
+        0.22
+      ],
+      "count": 13725
+    },
+    "issues": [
+      "1536 !important rules",
+      "16844 duplicate declarations",
+      "96% unused CSS"
+    ]
+  }
+}

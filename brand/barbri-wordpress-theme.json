@@ -1,0 +1,197 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/theme.json",
+  "version": 3,
+  "settings": {
+    "color": {
+      "palette": [
+        {
+          "slug": "primary",
+          "color": "#001722",
+          "name": "Primary"
+        },
+        {
+          "slug": "secondary",
+          "color": "#464f57",
+          "name": "Secondary"
+        },
+        {
+          "slug": "accent",
+          "color": "#869c9e",
+          "name": "Accent"
+        },
+        {
+          "slug": "neutral-1",
+          "color": "#000000",
+          "name": "Neutral 1"
+        },
+        {
+          "slug": "neutral-2",
+          "color": "#ffffff",
+          "name": "Neutral 2"
+        },
+        {
+          "slug": "neutral-3",
+          "color": "#212529",
+          "name": "Neutral 3"
+        },
+        {
+          "slug": "neutral-4",
+          "color": "#ececec",
+          "name": "Neutral 4"
+        },
+        {
+          "slug": "neutral-5",
+          "color": "#f2f7fc",
+          "name": "Neutral 5"
+        },
+        {
+          "slug": "bg-ffffff",
+          "color": "#ffffff",
+          "name": "Background #ffffff"
+        },
+        {
+          "slug": "bg-ececec",
+          "color": "#ececec",
+          "name": "Background #ececec"
+        },
+        {
+          "slug": "bg-f2f7fc",
+          "color": "#f2f7fc",
+          "name": "Background #f2f7fc"
+        }
+      ],
+      "gradients": []
+    },
+    "typography": {
+      "fontFamilies": [
+        {
+          "fontFamily": "Nunito",
+          "slug": "nunito",
+          "name": "Nunito"
+        },
+        {
+          "fontFamily": "Times",
+          "slug": "times",
+          "name": "Times"
+        },
+        {
+          "fontFamily": "Bitter",
+          "slug": "bitter",
+          "name": "Bitter"
+        },
+        {
+          "fontFamily": "Material Symbols Rounded",
+          "slug": "material-symbols-rounded",
+          "name": "Material Symbols Rounded"
+        },
+        {
+          "fontFamily": "babri-icons",
+          "slug": "babri-icons",
+          "name": "babri-icons"
+        }
+      ],
+      "fontSizes": [
+        {
+          "size": "75px",
+          "slug": "size-75",
+          "name": "75px"
+        },
+        {
+          "size": "64px",
+          "slug": "size-64",
+          "name": "64px"
+        },
+        {
+          "size": "54px",
+          "slug": "size-54",
+          "name": "54px"
+        },
+        {
+          "size": "50px",
+          "slug": "size-50",
+          "name": "50px"
+        },
+        {
+          "size": "48px",
+          "slug": "size-48",
+          "name": "48px"
+        },
+        {
+          "size": "36px",
+          "slug": "size-36",
+          "name": "36px"
+        },
+        {
+          "size": "28px",
+          "slug": "size-28",
+          "name": "28px"
+        },
+        {
+          "size": "24px",
+          "slug": "size-24",
+          "name": "24px"
+        }
+      ]
+    },
+    "spacing": {
+      "spacingSizes": [
+        {
+          "size": "2px",
+          "slug": "spacing-2",
+          "name": "2px"
+        },
+        {
+          "size": "15px",
+          "slug": "spacing-15",
+          "name": "15px"
+        },
+        {
+          "size": "24px",
+          "slug": "spacing-24",
+          "name": "24px"
+        },
+        {
+          "size": "28px",
+          "slug": "spacing-28",
+          "name": "28px"
+        },
+        {
+          "size": "48px",
+          "slug": "spacing-48",
+          "name": "48px"
+        },
+        {
+          "size": "58px",
+          "slug": "spacing-58",
+          "name": "58px"
+        },
+        {
+          "size": "80px",
+          "slug": "spacing-80",
+          "name": "80px"
+        },
+        {
+          "size": "100px",
+          "slug": "spacing-100",
+          "name": "100px"
+        }
+      ]
+    },
+    "layout": {
+      "contentSize": "55%",
+      "wideSize": "1400px"
+    }
+  },
+  "styles": {
+    "color": {
+      "background": "#ffffff",
+      "text": "#000000"
+    },
+    "typography": {
+      "fontSize": "16px",
+      "lineHeight": "normal",
+      "fontFamily": "Nunito"
+    },
+    "spacing": {}
+  }
+}

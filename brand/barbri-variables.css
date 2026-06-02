@@ -1,0 +1,89 @@
+:root {
+  /* Colors — Primary */
+  --color-primary: #001722;
+  --color-secondary: #464f57;
+  --color-accent: #869c9e;
+
+  /* Colors — Neutrals */
+  --color-neutral-50: #000000;
+  --color-neutral-100: #ffffff;
+  --color-neutral-200: #212529;
+  --color-neutral-300: #ececec;
+  --color-neutral-400: #f2f7fc;
+  --color-neutral-500: #343a40;
+  --color-neutral-600: #cccccc;
+  --color-neutral-700: #2e2e2e;
+
+  /* Colors — Backgrounds */
+  --color-bg: #ffffff;
+  --color-bg-1: #ececec;
+  --color-bg-2: #f2f7fc;
+  --color-bg-3: #001722;
+
+  /* Colors — Text */
+  --color-text: #000000;
+  --color-text-1: #464f57;
+  --color-text-2: #ffffff;
+  --color-text-3: #235ba8;
+  --color-text-4: #212529;
+
+  /* Typography — Families */
+  --font-sans: 'Nunito', sans-serif;
+  --font-body: 'Times', sans-serif;
+  --font-font-2: 'Bitter', sans-serif;
+  --font-body: 'Material Symbols Rounded', sans-serif;
+  --font-body: 'babri-icons', sans-serif;
+
+  /* Typography — Scale */
+  --font-size-75: 75px;
+  --font-size-64: 64px;
+  --font-size-54: 54px;
+  --font-size-50: 50px;
+  --font-size-48: 48px;
+  --font-size-36: 36px;
+  --font-size-28: 28px;
+  --font-size-24: 24px;
+  --font-size-22: 22px;
+  --font-size-21: 21px;
+  --font-size-20: 20px;
+  --font-size-19: 19px;
+
+  /* Spacing */
+  --spacing-2: 2px;
+  --spacing-15: 15px;
+  --spacing-24: 24px;
+  --spacing-28: 28px;
+  --spacing-48: 48px;
+  --spacing-58: 58px;
+  --spacing-80: 80px;
+  --spacing-100: 100px;
+  --spacing-106: 106px;
+  --spacing-180: 180px;
+
+  /* Border Radius */
+  --radius-xs: 1px;
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 16px;
+  --radius-full: 50px;
+  --radius-full: 100px;
+
+  /* Box Shadows */
+  --shadow-md: rgba(140, 150, 158, 0.35) 3px 3px 5px 0px;
+  --shadow-lg: rgba(127, 137, 161, 0.25) 0px 0px 30px 0px;
+
+  /* Original Site Variables */
+  /* — colors — */
+  --eswIconFillColor: #FFF;
+  /* — spacing — */
+  --eswIconFontSize: 16px;
+  /* — other — */
+  --eswButtonRight: 30px;
+  --eswButtonBottom: 25px;
+  /* — semantic — */
+  success: [object Object];
+  warning: [object Object];
+  error: [object Object];
+  info: [object Object];
+
+}

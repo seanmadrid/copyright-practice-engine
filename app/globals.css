@@ -1,0 +1,116 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*
+ * Brand tokens extracted from https://www.barbri.com/ via designlang and then
+ * curated against the site's own usage data (brand/barbri-design-language.md).
+ * BARBRI's real system:
+ *   - Dark teal-navy #001722 is the BUTTON / dark color (its `.button` rule),
+ *     not a header bar — so it's `--primary` (actions), used on a WHITE chrome.
+ *   - #2a5488 is the prominent blue (links, accents, focus) — `--brand-blue`.
+ *   - Nunito is body/UI type; Bitter (serif) is the heading face.
+ *   - White / pale-blue (#f2f7fc) surfaces, slate #464f57 secondary text.
+ * The raw export's shadcn theme flattened all of this; these values restore it.
+ */
+:root {
+  --font-sans: "Nunito", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Bitter", ui-serif, Georgia, serif;
+
+  --background: 0 0% 100%;
+  --foreground: 210 11% 15%; /* #212529 */
+
+  --primary: 199 100% 7%; /* #001722 — dark teal-navy buttons */
+  --primary-foreground: 0 0% 100%;
+
+  --secondary: 208 11% 31%; /* #464f57 slate */
+  --secondary-foreground: 0 0% 100%;
+
+  /* BARBRI blue #2a5488 — links, focus rings, interactive accents */
+  --brand-blue: 213 53% 35%;
+
+  /* subtle hover/selected surface, tinted toward the brand blue */
+  --accent: 213 45% 95%;
+  --accent-foreground: 199 100% 7%;
+
+  --muted: 210 60% 97%; /* #f2f7fc */
+  --muted-foreground: 208 12% 38%;
+
+  --card: 0 0% 100%;
+  --card-foreground: 210 11% 15%;
+
+  --popover: 0 0% 100%;
+  --popover-foreground: 210 11% 15%;
+
+  --border: 210 28% 88%;
+  --input: 210 28% 88%;
+  --ring: 213 53% 35%; /* brand blue */
+  --radius: 8px;
+
+  /* status-only colors for the learning task (outside the marketing palette) */
+  --success: 152 55% 30%;
+  --success-foreground: 0 0% 100%;
+  --destructive: 4 74% 47%;
+  --destructive-foreground: 0 0% 100%;
+}
+
+* {
+  border-color: hsl(var(--border));
+}
+
+body {
+  background-color: hsl(var(--background));
+  color: hsl(var(--foreground));
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Bitter (serif) is BARBRI's heading face — Nunito stays for body/UI. */
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--font-serif);
+}
+
+/* Inline links pick up the brand blue. */
+.brand-link {
+  color: hsl(var(--brand-blue));
+}
+
+/*
+ * Direction pills for the factor grid. Green = favors fair use, slate = neutral,
+ * red = favors the owner (weighs against fair use). Status colors keep the
+ * three-way call legible against BARBRI's near-monochrome identity.
+ */
+.dir-fair-use[data-active="true"] {
+  background-color: hsl(var(--success));
+  color: hsl(var(--success-foreground));
+  border-color: hsl(var(--success));
+}
+.dir-neutral[data-active="true"] {
+  background-color: hsl(var(--secondary));
+  color: hsl(var(--secondary-foreground));
+  border-color: hsl(var(--secondary));
+}
+.dir-owner[data-active="true"] {
+  background-color: hsl(var(--destructive));
+  color: hsl(var(--destructive-foreground));
+  border-color: hsl(var(--destructive));
+}
+
+/*
+ * Status pills for the element-test checklist. The all-of structure is binary —
+ * an element is either met (green) or fails (red) — so it borrows the same status
+ * colors as the balancing grid, minus the neutral middle.
+ */
+.status-met[data-active="true"] {
+  background-color: hsl(var(--success));
+  color: hsl(var(--success-foreground));
+  border-color: hsl(var(--success));
+}
+.status-fails[data-active="true"] {
+  background-color: hsl(var(--destructive));
+  color: hsl(var(--destructive-foreground));
+  border-color: hsl(var(--destructive));
+}

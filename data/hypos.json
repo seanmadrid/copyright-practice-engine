@@ -1,0 +1,50 @@
+[
+  {
+    "doctrine_id": "fair-use",
+    "target_id": "T1",
+    "title": "The Annotated Cookbook That Cooked the Market",
+    "source_work": "Marisol Vega's bestselling culinary memoir 'Salt and Memory'",
+    "use": "academic annotation and critique published as a study guide",
+    "fact_pattern": "Marisol Vega is a celebrated chef whose published memoir 'Salt and Memory' blends personal narrative with 47 original recipes. Professor Dale Okonkwo, a food-studies scholar at a state university, writes 'Reading the Kitchen: A Critical Guide to Salt and Memory,' which excerpts roughly a dozen sentences per chapter alongside his own commentary analyzing Vega's prose style, cultural influences, and narrative technique. Each excerpt is followed by two to three paragraphs of Okonkwo's original scholarly analysis. The guide is sold through the university press at $29 per copy and is widely adopted in food-writing courses across the country. Vega had already contracted with a major educational publisher to release an authorized instructor's companion—including discussion questions, contextual essays, and licensed excerpts—scheduled for release the following semester. Pre-orders for the authorized companion dropped sharply after Okonkwo's guide reached campus bookstores. Okonkwo's publisher did not seek a license. Vega sues for copyright infringement, and Okonkwo raises fair use as a defense."
+  },
+  {
+    "doctrine_id": "fair-use",
+    "target_id": "T2",
+    "title": "Mockingbird Blues: Parody or Piracy?",
+    "source_work": "\"Velvet Horizon,\" a celebrated, highly imaginative concept album by indie artist Celeste Vane",
+    "use": "commercial parody album mocking Vane's artistic pretension",
+    "fact_pattern": "Celeste Vane spent six years crafting 'Velvet Horizon,' a lush, emotionally intricate concept album widely praised for its originality. The album has never been licensed for sampling or cover use. Riot Pocket, a comedy duo, released 'Flannel Horizon,' a twelve-track commercial parody album sold on streaming platforms for profit. Each track mimics Vane's signature orchestral swells and breathy vocals while inserting absurdist lyrics ridiculing what critics had called Vane's 'insufferable self-seriousness.' To make the satirical point land, Riot Pocket reproduced recognizable melodic phrases from roughly four of Vane's twelve tracks—enough to identify the source, though not entire songs. Music economists retained by Vane found no evidence that 'Flannel Horizon' displaced sales of 'Velvet Horizon'; in fact, streaming data showed listeners who discovered the parody frequently purchased the original afterward. Vane sued, arguing that Riot Pocket profited from her protected expression without permission. Riot Pocket invokes fair use."
+  },
+  {
+    "doctrine_id": "fair-use",
+    "target_id": "T3",
+    "title": "The Eight-Bar Hook That Sank the Album",
+    "source_work": "a celebrated, Grammy-winning soul ballad by fictional artist Mirela Voss",
+    "use": "sampling the song's iconic melodic hook in a commercial hip-hop track",
+    "fact_pattern": "Mirela Voss spent three years composing 'Velvet Undertow,' a Grammy-winning soul ballad praised for its hauntingly original eight-bar melodic hook. Critics universally identified that hook as the emotional core of the song — the moment listeners describe as the reason they return to it. Producer Damon Creel sampled exactly those eight bars, looping them beneath new rap verses that explored themes of urban resilience rather than Voss's theme of romantic loss. Creel added new lyrics, a drum pattern, and a synthesizer layer, giving the track a distinct sonic texture and arguably a new expressive purpose. His label released the track commercially, and it charted nationally. Voss had never licensed the hook to any hip-hop producer, but she had discussed doing so with two labels and maintained an active licensing program for sync rights. Creel's track did not noticeably cannibalize Voss's ballad sales, and no evidence showed listeners substituted one for the other. However, Creel's release visibly cooled interest from the two labels that had been negotiating with Voss for precisely that hook."
+  },
+  {
+    "doctrine_id": "infringement",
+    "target_id": "E1",
+    "title": "The Alphabetical Diner Directory Dispute",
+    "source_work": "printed directory of local diners organized alphabetically by city",
+    "use": "reproduced the directory verbatim in a competing regional food guide",
+    "fact_pattern": "Marlene Kosch spent eight months compiling 'Eat Local: A Complete Guide to Diners in the Tri-County Area,' a printed booklet listing every diner operating in Harwick, Prestonburg, and Coles Ferry. Her methodology was straightforward: she called each county clerk's office, gathered all active restaurant licenses, identified those classified as diners, and arranged the resulting names, addresses, and phone numbers in strict alphabetical order by city. She added no descriptions, photographs, star ratings, or editorial commentary. The booklet's cover and interior used a standard typeface with no distinctive design elements. Kosch registered the booklet with the U.S. Copyright Office shortly after publication. Six months later, rival publisher Devon Farris obtained a copy of Kosch's booklet and reproduced its entire contents—every name, address, and phone number in the identical alphabetical arrangement—inside his competing publication, 'Tri-County Dining.' Farris had Kosch's booklet on his desk throughout production and his staff admittedly used it as their sole data source. Kosch now sues Farris for copyright infringement. Farris does not dispute that he copied directly from her work."
+  },
+  {
+    "doctrine_id": "infringement",
+    "target_id": "E2",
+    "title": "Two Photographers, One Foggy Bridge",
+    "source_work": "original fine-art photograph of the Golden Gate Bridge at dawn",
+    "use": "published a nearly identical photograph independently captured",
+    "fact_pattern": "Marina Voss is a professional photographer who, in March 2022, hiked to a specific overlook on the Marin Headlands before sunrise and captured a striking photograph of the Golden Gate Bridge partially obscured by morning fog, with warm amber light breaking across the upper towers. She registered the image with the U.S. Copyright Office within three months of creation. The photograph reflects her independent creative choices: a 1/15-second exposure, a deliberately off-center composition, and selective focus on the near suspension cable to create depth.\n\nDaniel Cho, a hobbyist photographer with no knowledge of Voss or her work, visited the same overlook two weeks later. Acting on advice from a photography forum recommending that precise location and time of day for fog shots, Cho independently captured a strikingly similar image—comparable fog coverage, comparable warm tones, similar framing—using his own equipment and his own judgment. Cho subsequently sold prints through his personal website.\n\nVoss sued Cho for copyright infringement. Cho produced timestamped RAW files, forum posts predating his visit, and a receipt for his memory card purchased before Voss's registration date, all confirming he had never seen Voss's photograph."
+  },
+  {
+    "doctrine_id": "infringement",
+    "target_id": "E3",
+    "title": "The Stolen Starlight Cookbook",
+    "source_work": "original illustrated vegetarian cookbook titled 'Starlight Kitchen'",
+    "use": "reproduced recipes and accompanying descriptive text verbatim in a competing cookbook",
+    "fact_pattern": "Maya Osei spent eighteen months independently writing and illustrating 'Starlight Kitchen,' a vegetarian cookbook featuring 60 original recipes. Each recipe included her personally crafted introductory paragraphs describing flavor profiles, cultural inspirations, and suggested pairings — prose she composed entirely on her own without copying any prior source. Maya registered the work with the U.S. Copyright Office before publication, receiving a certificate of registration. The book sold modestly but developed a loyal following online.\n\nDerrick Paulson, a rival food blogger, purchased a copy of 'Starlight Kitchen' shortly after its release. Six months later, Paulson self-published 'Garden Table Eats,' which contained 22 of Maya's recipes along with her introductory paragraphs copied word-for-word, with only minor substitutions of ingredient quantities. A side-by-side comparison of the two books reveals that the descriptive prose, sentence structure, and creative flourishes in Paulson's chapters are nearly identical to Maya's original text. Paulson had no independent access to the underlying culinary concepts except through Maya's published book, and no evidence suggests he developed the disputed passages on his own."
+  }
+]

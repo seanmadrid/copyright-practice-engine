@@ -1,0 +1,82 @@
+{
+  "id": "fair-use",
+  "name": "Fair use",
+  "doctrine": "fair_use",
+  "citation": "17 U.S.C. § 107",
+  "logic": "weigh-and-balance",
+  "structure": "weigh-and-balance",
+  "anchor_case": "Campbell v. Acuff-Rose",
+  "factors": [
+    {
+      "id": 1,
+      "name": "Purpose and character of the use",
+      "favors_fair_use": [
+        "transformative, adds new meaning or purpose",
+        "parody, commentary, criticism, news, teaching, research",
+        "nonprofit or educational"
+      ],
+      "favors_owner": [
+        "reproduces the original for the same purpose",
+        "purely commercial use that supersedes the original"
+      ],
+      "weight": "high",
+      "misconceptions": [
+        {"id": "1a", "wrong_move": "treats any commercial use as automatically not fair use", "correction": "commercial weighs against, yet a transformative purpose can outweigh it"},
+        {"id": "1b", "wrong_move": "calls any alteration transformative", "correction": "transformation means a new purpose or meaning, not mere change"}
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Nature of the work",
+      "favors_fair_use": ["factual or informational work", "already published"],
+      "favors_owner": ["highly creative work", "unpublished"],
+      "weight": "low",
+      "misconceptions": [
+        {"id": "2a", "wrong_move": "gives this factor heavy weight", "correction": "this factor rarely controls and usually carries little weight"}
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Amount and substantiality used",
+      "favors_fair_use": ["small portion", "no more than the purpose needs"],
+      "favors_owner": ["large portion", "the qualitative heart of the work even if small"],
+      "weight": "medium",
+      "misconceptions": [
+        {"id": "3a", "wrong_move": "judges only the quantity taken", "correction": "a small but central excerpt, the heart of the work, can cut against fair use"}
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Effect on the market",
+      "favors_fair_use": ["no market substitution", "serves a market the owner would not enter"],
+      "favors_owner": ["displaces sales of the original", "harms an established or likely licensing market"],
+      "weight": "high",
+      "misconceptions": [
+        {"id": "4a", "wrong_move": "looks only at direct sales and ignores licensing markets", "correction": "harm to a likely licensing market counts"}
+      ]
+    }
+  ],
+  "teaching_targets": [
+    {
+      "id": "T1",
+      "dispositive_factor": 4,
+      "direction": "favors_owner",
+      "configuration": {"1": "favors_fair_use", "2": "neutral", "3": "favors_fair_use", "4": "favors_owner"},
+      "intended_lesson": "a use can look transformative and take little, yet still fail on market harm"
+    },
+    {
+      "id": "T2",
+      "dispositive_factor": 1,
+      "direction": "favors_fair_use",
+      "configuration": {"1": "favors_fair_use", "2": "favors_owner", "3": "neutral", "4": "favors_fair_use"},
+      "intended_lesson": "a clearly transformative parody can be fair use even when the use is commercial"
+    },
+    {
+      "id": "T3",
+      "dispositive_factor": 3,
+      "direction": "favors_owner",
+      "configuration": {"1": "neutral", "2": "favors_owner", "3": "favors_owner", "4": "neutral"},
+      "intended_lesson": "taking the qualitative heart of a work cuts against fair use even when the quantity is small"
+    }
+  ]
+}

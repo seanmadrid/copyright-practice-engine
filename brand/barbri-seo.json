@@ -1,0 +1,94 @@
+{
+  "openGraph": {
+    "description": "BARBRI is the worldwide leader in legal exam prep for the U.S. bar exam, SQE, MPRE, and CLE, professional development, and legal practice skills. Learn more.",
+    "locale": "en_US",
+    "locale:alternate": "en_US",
+    "site_name": "Barbri",
+    "title": "Legal Education and Law Exam Prep | Global Leaders | BARBRI - Barbri - Barbri Portal",
+    "type": "website",
+    "url": "https://www.barbri.com",
+    "image": "https://www.barbri.com/documents/35912/552623/barbri_young-woman-legal-associate_home.png/0c5aed99-5c14-912f-07aa-96381356890f?version=1.0&t=1737615052020&imagePreview=1",
+    "image:type": "image/png",
+    "image:url": "https://www.barbri.com/documents/35912/552623/barbri_young-woman-legal-associate_home.png/0c5aed99-5c14-912f-07aa-96381356890f?version=1.0&t=1737615052020&imagePreview=1",
+    "image:height": "449",
+    "image:width": "674"
+  },
+  "twitter": {},
+  "description": "BARBRI is the worldwide leader in legal exam prep for the U.S. bar exam, SQE, MPRE, and CLE, professional development, and legal practice skills. Learn more.",
+  "canonical": null,
+  "themeColor": null,
+  "viewport": "initial-scale=1.0, width=device-width",
+  "favicons": [
+    {
+      "rel": "icon",
+      "href": "https://www.barbri.com/o/barbri-global-theme/images/icons/favicon-194x194.png",
+      "sizes": "194x194",
+      "type": "image/png"
+    },
+    {
+      "rel": "icon",
+      "href": "https://www.barbri.com/o/barbri-global-theme/images/icons/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "rel": "icon",
+      "href": "https://www.barbri.com/o/barbri-global-theme/images/icons/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "rel": "apple-touch-icon",
+      "href": "https://www.barbri.com/o/barbri-global-theme/images/icons/apple-touch-icon-180x180.png",
+      "sizes": "180x180",
+      "type": ""
+    },
+    {
+      "rel": "apple-touch-icon",
+      "href": "https://www.barbri.com/o/barbri-global-theme/images/icons/apple-touch-icon-152x152.png",
+      "sizes": "152x152",
+      "type": ""
+    },
+    {
+      "rel": "apple-touch-icon",
+      "href": "https://www.barbri.com/o/barbri-global-theme/images/icons/apple-touch-icon-120x120.png",
+      "sizes": "120x120",
+      "type": ""
+    },
+    {
+      "rel": "apple-touch-icon",
+      "href": "https://www.barbri.com/o/barbri-global-theme/images/icons/apple-touch-icon-76x76.png",
+      "sizes": "76x76",
+      "type": ""
+    },
+    {
+      "rel": "apple-touch-icon",
+      "href": "https://www.barbri.com/o/barbri-global-theme/images/icons/apple-touch-icon-57x57.png",
+      "sizes": "57x57",
+      "type": ""
+    },
+    {
+      "rel": "apple-touch-icon",
+      "href": "https://www.barbri.com/documents/35912/0/barbri_favicon.svg/b5f3cde6-0a80-ea92-223c-e74bdd0b3d40",
+      "sizes": "",
+      "type": ""
+    },
+    {
+      "rel": "icon",
+      "href": "https://www.barbri.com/documents/35912/0/barbri_favicon.svg/b5f3cde6-0a80-ea92-223c-e74bdd0b3d40",
+      "sizes": "",
+      "type": ""
+    }
+  ],
+  "manifest": null,
+  "structuredData": [],
+  "score": {
+    "hasOg": true,
+    "hasTwitter": false,
+    "hasDescription": true,
+    "hasCanonical": false,
+    "hasStructuredData": false,
+    "hasFavicon": true,
+    "hasThemeColor": false
+  }
+}

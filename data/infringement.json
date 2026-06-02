@@ -1,0 +1,49 @@
+{
+  "id": "infringement",
+  "name": "Copyright infringement",
+  "doctrine": "copyright infringement",
+  "citation": "17 U.S.C. § 106; Feist, 499 U.S. 340",
+  "logic": "all-of",
+  "structure": "all-of",
+  "anchor_case": "Feist Publications v. Rural Telephone",
+  "elements": [
+    {
+      "id": 1,
+      "name": "Ownership of a valid copyright",
+      "is_met_when": [
+        "work is original",
+        "independently created",
+        "has minimal creativity"
+      ],
+      "fails_when": [
+        "work lacks originality",
+        "facts or ideas alone",
+        "copied from another source"
+      ],
+      "misconceptions": [
+        {"id": "1a", "wrong_move": "treats any work as copyrightable", "correction": "facts and unoriginal compilations are not protected"},
+        {"id": "1b", "wrong_move": "assumes effort or expense earns protection (sweat of the brow)", "correction": "originality, not labor, is the constitutional touchstone of copyright"}
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Copying of original protected elements",
+      "is_met_when": [
+        "access plus substantial similarity of protected expression"
+      ],
+      "fails_when": [
+        "independent creation",
+        "only ideas or unprotectable elements are shared"
+      ],
+      "misconceptions": [
+        {"id": "2a", "wrong_move": "treats any similarity as copying", "correction": "similarity in unprotected ideas or facts is not infringement"},
+        {"id": "2b", "wrong_move": "infers copying from resemblance with no access shown", "correction": "without access, even striking similarity can be independent creation"}
+      ]
+    }
+  ],
+  "teaching_targets": [
+    {"id": "E1", "failing_element": 1, "configuration": {"1": "fails", "2": "met"}, "intended_lesson": "no valid copyright means no infringement even when copying is obvious"},
+    {"id": "E2", "failing_element": 2, "configuration": {"1": "met", "2": "fails"}, "intended_lesson": "independent creation defeats infringement even when the works look alike"},
+    {"id": "E3", "failing_element": null, "configuration": {"1": "met", "2": "met"}, "intended_lesson": "all elements satisfied, the claim stands"}
+  ]
+}

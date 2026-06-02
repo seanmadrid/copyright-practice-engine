@@ -1,0 +1,1272 @@
+{
+  "pageIntent": {
+    "type": "landing",
+    "confidence": 0.31,
+    "path": "/",
+    "title": "Legal Education and Law Exam Prep | Global Leaders | BARBRI",
+    "description": "BARBRI is the worldwide leader in legal exam prep for the U.S. bar exam, SQE, MPRE, and CLE, professional development, and legal practice skills. Learn more.",
+    "signals": [
+      {
+        "kind": "dom",
+        "type": "blog-post",
+        "weight": 0.35,
+        "detail": "byline|min-read"
+      },
+      {
+        "kind": "url",
+        "type": "landing",
+        "weight": 0.45,
+        "detail": "root-path"
+      }
+    ],
+    "alternates": [
+      {
+        "type": "blog-post",
+        "score": 0.35
+      }
+    ],
+    "needsSmart": true
+  },
+  "sectionRoles": {
+    "sections": [
+      {
+        "index": 0,
+        "tag": "section",
+        "role": "testimonials",
+        "subrole": null,
+        "confidence": 0.4,
+        "heading": null,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        },
+        "buttonCount": 0,
+        "cardCount": 0,
+        "slots": {
+          "lede": "BarbriGlobalLocalstorage"
+        },
+        "needsSmart": true
+      },
+      {
+        "index": 1,
+        "tag": "nav",
+        "role": "nav",
+        "subrole": null,
+        "confidence": 0.9,
+        "heading": null,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        },
+        "buttonCount": 0,
+        "cardCount": 0,
+        "slots": {
+          "lede": "Skip to Main Content"
+        },
+        "needsSmart": false
+      },
+      {
+        "index": 2,
+        "tag": "header",
+        "role": "nav",
+        "subrole": null,
+        "confidence": 0.4,
+        "heading": null,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1280,
+          "h": 145
+        },
+        "buttonCount": 20,
+        "cardCount": 84,
+        "slots": {
+          "ctaCount": 20,
+          "lede": "For Individual Learners\nkeyboard_arrow_down\nFor Law Schools + Universities\nkeyboard_arrow_down\nFor Law Firms + Organizations\nkeyboard_arrow_down\nResources\nkeyboard_arrow_down\nAbout Us\nkeyboard_arrow_down\naccount_circle Login to Learn\nEmpowering Every Step of the Legal Learning Journey\nContact Us"
+        },
+        "needsSmart": true
+      },
+      {
+        "index": 3,
+        "tag": "nav",
+        "role": "nav",
+        "subrole": null,
+        "confidence": 0.9,
+        "heading": null,
+        "bounds": {
+          "x": 117.15625,
+          "y": 0,
+          "w": 864.875,
+          "h": 72
+        },
+        "buttonCount": 16,
+        "cardCount": 75,
+        "slots": {
+          "ctaCount": 16,
+          "lede": "For Individual Learners\nkeyboard_arrow_down\nFor Law Schools + Universities\nkeyboard_arrow_down\nFor Law Firms + Organizations\nkeyboard_arrow_down\nResources\nkeyboard_arrow_down\nAbout Us\nkeyboard_arrow_down"
+        },
+        "needsSmart": false
+      },
+      {
+        "index": 4,
+        "tag": "section",
+        "role": "testimonials",
+        "subrole": null,
+        "confidence": 0.4,
+        "heading": null,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        },
+        "buttonCount": 2,
+        "cardCount": 2,
+        "slots": {
+          "ctaCount": 2
+        },
+        "needsSmart": true
+      },
+      {
+        "index": 5,
+        "tag": "section",
+        "role": "content",
+        "subrole": null,
+        "confidence": 0.3,
+        "heading": null,
+        "bounds": {
+          "x": 0,
+          "y": 73,
+          "w": 1280,
+          "h": 0
+        },
+        "buttonCount": 0,
+        "cardCount": 0,
+        "slots": {},
+        "needsSmart": true
+      },
+      {
+        "index": 6,
+        "tag": "nav",
+        "role": "nav",
+        "subrole": null,
+        "confidence": 0.9,
+        "heading": null,
+        "bounds": {
+          "x": 0,
+          "y": 73,
+          "w": 1280,
+          "h": 72
+        },
+        "buttonCount": 1,
+        "cardCount": 1,
+        "slots": {
+          "ctaCount": 1,
+          "lede": "Empowering Every Step of the Legal Learning Journey\nContact Us"
+        },
+        "needsSmart": false
+      },
+      {
+        "index": 7,
+        "tag": "section",
+        "role": "testimonials",
+        "subrole": null,
+        "confidence": 0.4,
+        "heading": "BARBRI is the Trusted Global Leader in Legal Education",
+        "bounds": {
+          "x": 0,
+          "y": 145,
+          "w": 1280,
+          "h": 13156.6875
+        },
+        "buttonCount": 42,
+        "cardCount": 99,
+        "slots": {
+          "heading": "BARBRI is the Trusted Global Leader in Legal Education",
+          "subheadings": [
+            "Discover Personalized US Bar + SQE Prep Plus Expert Professional Development",
+            "BARBRI Bar Review",
+            "BARBRI SQE Prep",
+            "BARBRI for Professionals"
+          ],
+          "ctaCount": 42
+        },
+        "needsSmart": true
+      },
+      {
+        "index": 8,
+        "tag": "section",
+        "role": "content",
+        "subrole": null,
+        "confidence": 0.3,
+        "heading": "BARBRI is the Trusted Global Leader in Legal Education",
+        "bounds": {
+          "x": 0,
+          "y": 145,
+          "w": 1280,
+          "h": 466
+        },
+        "buttonCount": 0,
+        "cardCount": 0,
+        "slots": {
+          "heading": "BARBRI is the Trusted Global Leader in Legal Education"
+        },
+        "needsSmart": true
+      },
+      {
+        "index": 9,
+        "tag": "section",
+        "role": "content",
+        "subrole": null,
+        "confidence": 0.3,
+        "heading": "BARBRI is the Trusted Global Leader in Legal Education",
+        "bounds": {
+          "x": 0,
+          "y": 145,
+          "w": 1280,
+          "h": 466
+        },
+        "buttonCount": 0,
+        "cardCount": 0,
+        "slots": {
+          "heading": "BARBRI is the Trusted Global Leader in Legal Education"
+        },
+        "needsSmart": true
+      },
+      {
+        "index": 10,
+        "tag": "section",
+        "role": "content",
+        "subrole": null,
+        "confidence": 0.3,
+        "heading": null,
+        "bounds": {
+          "x": 0,
+          "y": 611,
+          "w": 1280,
+          "h": 176
+        },
+        "buttonCount": 2,
+        "cardCount": 1,
+        "slots": {
+          "ctaCount": 2,
+          "lede": "campaign"
+        },
+        "needsSmart": true
+      },
+      {
+        "index": 11,
+        "tag": "section",
+        "role": "content",
+        "subrole": null,
+        "confidence": 0.3,
+        "heading": null,
+        "bounds": {
+          "x": 0,
+          "y": 611,
+          "w": 1280,
+          "h": 176
+        },
+        "buttonCount": 2,
+        "cardCount": 1,
+        "slots": {
+          "ctaCount": 2,
+          "lede": "campaign"
+        },
+        "needsSmart": true
+      },
+      {
+        "index": 12,
+        "tag": "section",
+        "role": "testimonials",
+        "subrole": null,
+        "confidence": 0.4,
+        "heading": "Discover Personalized US Bar + SQE Prep Plus Expert Professional Development",
+        "bounds": {
+          "x": 0,
+          "y": 787,
+          "w": 1280,
+          "h": 1109.6875
+        },
+        "buttonCount": 6,
+        "cardCount": 13,
+        "slots": {
+          "heading": "Discover Personalized US Bar + SQE Prep Plus Expert Professional Development",
+          "subheadings": [
+            "BARBRI Bar Review",
+            "BARBRI SQE Prep",
+            "BARBRI for Professionals"
+          ],
+          "ctaCount": 6,
+          "lede": "Discover Personalized US Bar + SQE Prep Plus Expert Professional Development\nBARBRI Bar Review"
+        },
+        "needsSmart": true
+      },
+      {
+        "index": 13,
+        "tag": "section",
+        "role": "testimonials",
+        "subrole": null,
+        "confidence": 0.4,
+        "heading": "Discover Personalized US Bar + SQE Prep Plus Expert Professional Development",
+        "bounds": {
+          "x": 0,
+          "y": 787,
+          "w": 1280,
+          "h": 1109.6875
+        },
+        "buttonCount": 6,
+        "cardCount": 13,
+        "slots": {
+          "heading": "Discover Personalized US Bar + SQE Prep Plus Expert Professional Development",
+          "subheadings": [
+            "BARBRI Bar Review",
+            "BARBRI SQE Prep",
+            "BARBRI for Professionals"
+          ],
+          "ctaCount": 6,
+          "lede": "Discover Personalized US Bar + SQE Prep Plus Expert Professional Development\nBARBRI Bar Review"
+        },
+        "needsSmart": true
+      },
+      {
+        "index": 14,
+        "tag": "section",
+        "role": "content",
+        "subrole": null,
+        "confidence": 0.3,
+        "heading": "BARBRI Helps You Achieve Your Ambitions",
+        "bounds": {
+          "x": 0,
+          "y": 1896.6875,
+          "w": 1280,
+          "h": 885
+        },
+        "buttonCount": 6,
+        "cardCount": 9,
+        "slots": {
+          "heading": "BARBRI Helps You Achieve Your Ambitions",
+          "subheadings": [
+            "US Pre-Law",
+            "US Law School",
+            "Training for U.S. Paralegals"
+          ],
+          "ctaCount": 6
+        },
+        "needsSmart": true
+      },
+      {
+        "index": 15,
+        "tag": "section",
+        "role": "content",
+        "subrole": null,
+        "confidence": 0.3,
+        "heading": "BARBRI Helps You Achieve Your Ambitions",
+        "bounds": {
+          "x": 0,
+          "y": 1896.6875,
+          "w": 1280,
+          "h": 885
+        },
+        "buttonCount": 6,
+        "cardCount": 9,
+        "slots": {
+          "heading": "BARBRI Helps You Achieve Your Ambitions",
+          "subheadings": [
+            "US Pre-Law",
+            "US Law School",
+            "Training for U.S. Paralegals"
+          ],
+          "ctaCount": 6
+        },
+        "needsSmart": true
+      },
+      {
+        "index": 16,
+        "tag": "section",
+        "role": "testimonial",
+        "subrole": null,
+        "confidence": 0.8,
+        "heading": "BARBRI Bar Prep: Meets You Where You Are",
+        "bounds": {
+          "x": 0,
+          "y": 2781.6875,
+          "w": 1280,
+          "h": 644
+        },
+        "buttonCount": 1,
+        "cardCount": 4,
+        "slots": {
+          "heading": "BARBRI Bar Prep: Meets You Where You Are",
+          "ctaCount": 1
+        },
+        "needsSmart": false
+      },
+      {
+        "index": 17,
+        "tag": "section",
+        "role": "testimonial",
+        "subrole": null,
+        "confidence": 0.8,
+        "heading": "BARBRI Bar Prep: Meets You Where You Are",
+        "bounds": {
+          "x": 0,
+          "y": 2781.6875,
+          "w": 1280,
+          "h": 644
+        },
+        "buttonCount": 1,
+        "cardCount": 4,
+        "slots": {
+          "heading": "BARBRI Bar Prep: Meets You Where You Are",
+          "ctaCount": 1
+        },
+        "needsSmart": false
+      },
+      {
+        "index": 18,
+        "tag": "section",
+        "role": "content",
+        "subrole": null,
+        "confidence": 0.3,
+        "heading": null,
+        "bounds": {
+          "x": 0,
+          "y": 3425.6875,
+          "w": 1280,
+          "h": 397
+        },
+        "buttonCount": 0,
+        "cardCount": 4,
+        "slots": {
+          "lede": "99.99"
+        },
+        "needsSmart": true
+      },
+      {
+        "index": 19,
+        "tag": "section",
+        "role": "content",
+        "subrole": null,
+        "confidence": 0.3,
+        "heading": null,
+        "bounds": {
+          "x": 0,
+          "y": 3425.6875,
+          "w": 1280,
+          "h": 397
+        },
+        "buttonCount": 0,
+        "cardCount": 4,
+        "slots": {
+          "lede": "99.99"
+        },
+        "needsSmart": true
+      },
+      {
+        "index": 20,
+        "tag": "section",
+        "role": "testimonial",
+        "subrole": null,
+        "confidence": 0.8,
+        "heading": null,
+        "bounds": {
+          "x": 0,
+          "y": 3822.6875,
+          "w": 1280,
+          "h": 355
+        },
+        "buttonCount": 0,
+        "cardCount": 1,
+        "slots": {},
+        "needsSmart": false
+      },
+      {
+        "index": 21,
+        "tag": "section",
+        "role": "testimonial",
+        "subrole": null,
+        "confidence": 0.8,
+        "heading": null,
+        "bounds": {
+          "x": 0,
+          "y": 3822.6875,
+          "w": 1280,
+          "h": 355
+        },
+        "buttonCount": 0,
+        "cardCount": 1,
+        "slots": {},
+        "needsSmart": false
+      },
+      {
+        "index": 22,
+        "tag": "section",
+        "role": "hero",
+        "subrole": null,
+        "confidence": 0.4,
+        "heading": "BARBRI SQE Prep",
+        "bounds": {
+          "x": 0,
+          "y": 4177.6875,
+          "w": 1280,
+          "h": 466
+        },
+        "buttonCount": 1,
+        "cardCount": 1,
+        "slots": {
+          "heading": "BARBRI SQE Prep",
+          "ctaCount": 1
+        },
+        "needsSmart": true
+      },
+      {
+        "index": 23,
+        "tag": "section",
+        "role": "hero",
+        "subrole": null,
+        "confidence": 0.4,
+        "heading": "BARBRI SQE Prep",
+        "bounds": {
+          "x": 0,
+          "y": 4177.6875,
+          "w": 1280,
+          "h": 466
+        },
+        "buttonCount": 1,
+        "cardCount": 1,
+        "slots": {
+          "heading": "BARBRI SQE Prep",
+          "ctaCount": 1
+        },
+        "needsSmart": true
+      },
+      {
+        "index": 24,
+        "tag": "section",
+        "role": "testimonial",
+        "subrole": null,
+        "confidence": 0.8,
+        "heading": null,
+        "bounds": {
+          "x": 0,
+          "y": 4643.6875,
+          "w": 1280,
+          "h": 622
+        },
+        "buttonCount": 0,
+        "cardCount": 4,
+        "slots": {},
+        "needsSmart": false
+      },
+      {
+        "index": 25,
+        "tag": "section",
+        "role": "testimonial",
+        "subrole": null,
+        "confidence": 0.8,
+        "heading": null,
+        "bounds": {
+          "x": 0,
+          "y": 4623.6875,
+          "w": 1280,
+          "h": 642
+        },
+        "buttonCount": 0,
+        "cardCount": 4,
+        "slots": {},
+        "needsSmart": false
+      },
+      {
+        "index": 26,
+        "tag": "section",
+        "role": "content",
+        "subrole": null,
+        "confidence": 0.3,
+        "heading": "SQE 1 Prep Course",
+        "bounds": {
+          "x": 0,
+          "y": 5265.6875,
+          "w": 1280,
+          "h": 818
+        },
+        "buttonCount": 4,
+        "cardCount": 6,
+        "slots": {
+          "heading": "SQE 1 Prep Course",
+          "subheadings": [
+            "SQE 2 Prep Course"
+          ],
+          "ctaCount": 4
+        },
+        "needsSmart": true
+      },
+      {
+        "index": 27,
+        "tag": "section",
+        "role": "content",
+        "subrole": null,
+        "confidence": 0.3,
+        "heading": "SQE 1 Prep Course",
+        "bounds": {
+          "x": 0,
+          "y": 5295.6875,
+          "w": 1280,
+          "h": 788
+        },
+        "buttonCount": 4,
+        "cardCount": 6,
+        "slots": {
+          "heading": "SQE 1 Prep Course",
+          "subheadings": [
+            "SQE 2 Prep Course"
+          ],
+          "ctaCount": 4
+        },
+        "needsSmart": true
+      },
+      {
+        "index": 28,
+        "tag": "section",
+        "role": "testimonial",
+        "subrole": null,
+        "confidence": 0.8,
+        "heading": "BARBRI LSAT Prep Courses",
+        "bounds": {
+          "x": 0,
+          "y": 6083.6875,
+          "w": 1280,
+          "h": 574
+        },
+        "buttonCount": 1,
+        "cardCount": 1,
+        "slots": {
+          "heading": "BARBRI LSAT Prep Courses",
+          "ctaCount": 1
+        },
+        "needsSmart": false
+      },
+      {
+        "index": 29,
+        "tag": "section",
+        "role": "testimonial",
+        "subrole": null,
+        "confidence": 0.8,
+        "heading": "BARBRI LSAT Prep Courses",
+        "bounds": {
+          "x": 0,
+          "y": 6083.6875,
+          "w": 1280,
+          "h": 574
+        },
+        "buttonCount": 1,
+        "cardCount": 1,
+        "slots": {
+          "heading": "BARBRI LSAT Prep Courses",
+          "ctaCount": 1
+        },
+        "needsSmart": false
+      },
+      {
+        "index": 30,
+        "tag": "section",
+        "role": "testimonial",
+        "subrole": null,
+        "confidence": 0.8,
+        "heading": null,
+        "bounds": {
+          "x": 0,
+          "y": 6657.6875,
+          "w": 1280,
+          "h": 291
+        },
+        "buttonCount": 0,
+        "cardCount": 1,
+        "slots": {
+          "lede": "I am particularly grateful for 1. PowerScore’s focus on positivity and improvement by placing importance on the task at hand and getting better each time rather than a numerical result, and 2. teaching us ways to enjoy the test. I am a firm believer in the PowerScore approach to the LSAT and the impact it has on my future.\n— Declan K. | LSAT Score: 175 | Yale Law"
+        },
+        "needsSmart": false
+      },
+      {
+        "index": 31,
+        "tag": "section",
+        "role": "testimonial",
+        "subrole": null,
+        "confidence": 0.8,
+        "heading": null,
+        "bounds": {
+          "x": 0,
+          "y": 6657.6875,
+          "w": 1280,
+          "h": 291
+        },
+        "buttonCount": 0,
+        "cardCount": 1,
+        "slots": {
+          "lede": "I am particularly grateful for 1. PowerScore’s focus on positivity and improvement by placing importance on the task at hand and getting better each time rather than a numerical result, and 2. teaching us ways to enjoy the test. I am a firm believer in the PowerScore approach to the LSAT and the impact it has on my future.\n— Declan K. | LSAT Score: 175 | Yale Law"
+        },
+        "needsSmart": false
+      },
+      {
+        "index": 32,
+        "tag": "section",
+        "role": "testimonials",
+        "subrole": null,
+        "confidence": 0.4,
+        "heading": "Get Additional Pre-Law Support",
+        "bounds": {
+          "x": 0,
+          "y": 6948.6875,
+          "w": 1280,
+          "h": 917
+        },
+        "buttonCount": 8,
+        "cardCount": 12,
+        "slots": {
+          "heading": "Get Additional Pre-Law Support",
+          "subheadings": [
+            "LSAT Self-Study Books",
+            "LSAT Private Tutoring",
+            "Law School Admissions Consulting",
+            "Law School Prep"
+          ],
+          "ctaCount": 8
+        },
+        "needsSmart": true
+      },
+      {
+        "index": 33,
+        "tag": "section",
+        "role": "testimonials",
+        "subrole": null,
+        "confidence": 0.4,
+        "heading": "Get Additional Pre-Law Support",
+        "bounds": {
+          "x": 0,
+          "y": 6948.6875,
+          "w": 1280,
+          "h": 917
+        },
+        "buttonCount": 8,
+        "cardCount": 12,
+        "slots": {
+          "heading": "Get Additional Pre-Law Support",
+          "subheadings": [
+            "LSAT Self-Study Books",
+            "LSAT Private Tutoring",
+            "Law School Admissions Consulting",
+            "Law School Prep"
+          ],
+          "ctaCount": 8
+        },
+        "needsSmart": true
+      },
+      {
+        "index": 34,
+        "tag": "section",
+        "role": "cta",
+        "subrole": null,
+        "confidence": 0.75,
+        "heading": "BARBRI Professional Education",
+        "bounds": {
+          "x": 0,
+          "y": 7865.6875,
+          "w": 1280,
+          "h": 802
+        },
+        "buttonCount": 2,
+        "cardCount": 1,
+        "slots": {
+          "heading": "BARBRI Professional Education",
+          "ctaCount": 2
+        },
+        "needsSmart": false
+      },
+      {
+        "index": 35,
+        "tag": "section",
+        "role": "cta",
+        "subrole": null,
+        "confidence": 0.75,
+        "heading": "BARBRI Professional Education",
+        "bounds": {
+          "x": 0,
+          "y": 7865.6875,
+          "w": 1280,
+          "h": 802
+        },
+        "buttonCount": 2,
+        "cardCount": 1,
+        "slots": {
+          "heading": "BARBRI Professional Education",
+          "ctaCount": 2
+        },
+        "needsSmart": false
+      },
+      {
+        "index": 36,
+        "tag": "section",
+        "role": "content",
+        "subrole": null,
+        "confidence": 0.3,
+        "heading": null,
+        "bounds": {
+          "x": 0,
+          "y": 8667.6875,
+          "w": 1280,
+          "h": 380
+        },
+        "buttonCount": 0,
+        "cardCount": 4,
+        "slots": {
+          "lede": "275,000"
+        },
+        "needsSmart": true
+      },
+      {
+        "index": 37,
+        "tag": "section",
+        "role": "content",
+        "subrole": null,
+        "confidence": 0.3,
+        "heading": null,
+        "bounds": {
+          "x": 0,
+          "y": 8667.6875,
+          "w": 1280,
+          "h": 380
+        },
+        "buttonCount": 0,
+        "cardCount": 4,
+        "slots": {
+          "lede": "275,000"
+        },
+        "needsSmart": true
+      },
+      {
+        "index": 38,
+        "tag": "section",
+        "role": "testimonial",
+        "subrole": null,
+        "confidence": 0.8,
+        "heading": null,
+        "bounds": {
+          "x": 0,
+          "y": 9047.6875,
+          "w": 1280,
+          "h": 462
+        },
+        "buttonCount": 0,
+        "cardCount": 4,
+        "slots": {
+          "lede": "This course is definitely a good stepping stone into the paralegal field. The course is designed to help you succeed in all areas.\n— Marrisa S.\nI like the study method, the format, the contents and how the online program is designed and presented to students. It is what I wanted and more. I will highly recommend it.\n— Eileen A."
+        },
+        "needsSmart": false
+      },
+      {
+        "index": 39,
+        "tag": "section",
+        "role": "testimonial",
+        "subrole": null,
+        "confidence": 0.8,
+        "heading": null,
+        "bounds": {
+          "x": 0,
+          "y": 9027.6875,
+          "w": 1280,
+          "h": 482
+        },
+        "buttonCount": 0,
+        "cardCount": 4,
+        "slots": {
+          "lede": "This course is definitely a good stepping stone into the paralegal field. The course is designed to help you succeed in all areas.\n— Marrisa S.\nI like the study method, the format, the contents and how the online program is designed and presented to students. It is what I wanted and more. I will highly recommend it.\n— Eileen A."
+        },
+        "needsSmart": false
+      },
+      {
+        "index": 40,
+        "tag": "section",
+        "role": "content",
+        "subrole": null,
+        "confidence": 0.3,
+        "heading": "E-Discovery Certification + Training",
+        "bounds": {
+          "x": 0,
+          "y": 9509.6875,
+          "w": 1280,
+          "h": 845
+        },
+        "buttonCount": 6,
+        "cardCount": 9,
+        "slots": {
+          "heading": "E-Discovery Certification + Training",
+          "subheadings": [
+            "CLE + CPE Instruction",
+            "US Paralegal Certificate Training"
+          ],
+          "ctaCount": 6
+        },
+        "needsSmart": true
+      },
+      {
+        "index": 41,
+        "tag": "section",
+        "role": "content",
+        "subrole": null,
+        "confidence": 0.3,
+        "heading": "E-Discovery Certification + Training",
+        "bounds": {
+          "x": 0,
+          "y": 9557.6875,
+          "w": 1280,
+          "h": 797
+        },
+        "buttonCount": 6,
+        "cardCount": 9,
+        "slots": {
+          "heading": "E-Discovery Certification + Training",
+          "subheadings": [
+            "CLE + CPE Instruction",
+            "US Paralegal Certificate Training"
+          ],
+          "ctaCount": 6
+        },
+        "needsSmart": true
+      },
+      {
+        "index": 42,
+        "tag": "section",
+        "role": "pricing",
+        "subrole": null,
+        "confidence": 0.4,
+        "heading": "AI Resources",
+        "bounds": {
+          "x": 0,
+          "y": 10354.6875,
+          "w": 1280,
+          "h": 466
+        },
+        "buttonCount": 1,
+        "cardCount": 5,
+        "slots": {
+          "heading": "AI Resources",
+          "ctaCount": 1,
+          "lede": "AI Resources\nfor Legal Professionals and Law Firms"
+        },
+        "needsSmart": true
+      },
+      {
+        "index": 43,
+        "tag": "section",
+        "role": "pricing",
+        "subrole": null,
+        "confidence": 0.4,
+        "heading": "AI Resources",
+        "bounds": {
+          "x": 0,
+          "y": 10354.6875,
+          "w": 1280,
+          "h": 466
+        },
+        "buttonCount": 1,
+        "cardCount": 5,
+        "slots": {
+          "heading": "AI Resources",
+          "ctaCount": 1,
+          "lede": "AI Resources\nfor Legal Professionals and Law Firms"
+        },
+        "needsSmart": true
+      },
+      {
+        "index": 44,
+        "tag": "section",
+        "role": "testimonials",
+        "subrole": null,
+        "confidence": 0.4,
+        "heading": "Explore Partnerships",
+        "bounds": {
+          "x": 0,
+          "y": 10900.6875,
+          "w": 1280,
+          "h": 967
+        },
+        "buttonCount": 1,
+        "cardCount": 7,
+        "slots": {
+          "heading": "Explore Partnerships",
+          "subheadings": [
+            "Your Partner in Legal Education"
+          ],
+          "ctaCount": 1
+        },
+        "needsSmart": true
+      },
+      {
+        "index": 45,
+        "tag": "section",
+        "role": "testimonials",
+        "subrole": null,
+        "confidence": 0.4,
+        "heading": "Explore Partnerships",
+        "bounds": {
+          "x": 0,
+          "y": 10900.6875,
+          "w": 1280,
+          "h": 967
+        },
+        "buttonCount": 1,
+        "cardCount": 7,
+        "slots": {
+          "heading": "Explore Partnerships",
+          "subheadings": [
+            "Your Partner in Legal Education"
+          ],
+          "ctaCount": 1
+        },
+        "needsSmart": true
+      },
+      {
+        "index": 46,
+        "tag": "section",
+        "role": "hero",
+        "subrole": null,
+        "confidence": 0.4,
+        "heading": "Your SQE and Legal Education Partner",
+        "bounds": {
+          "x": 0,
+          "y": 11867.6875,
+          "w": 1280,
+          "h": 679
+        },
+        "buttonCount": 1,
+        "cardCount": 5,
+        "slots": {
+          "heading": "Your SQE and Legal Education Partner",
+          "ctaCount": 1
+        },
+        "needsSmart": true
+      },
+      {
+        "index": 47,
+        "tag": "section",
+        "role": "hero",
+        "subrole": null,
+        "confidence": 0.4,
+        "heading": "Your SQE and Legal Education Partner",
+        "bounds": {
+          "x": 0,
+          "y": 11867.6875,
+          "w": 1280,
+          "h": 679
+        },
+        "buttonCount": 1,
+        "cardCount": 5,
+        "slots": {
+          "heading": "Your SQE and Legal Education Partner",
+          "ctaCount": 1
+        },
+        "needsSmart": true
+      },
+      {
+        "index": 48,
+        "tag": "section",
+        "role": "testimonials",
+        "subrole": null,
+        "confidence": 0.4,
+        "heading": "Partner with BARBRI to Help Train the Next Generation of Legal Professionals",
+        "bounds": {
+          "x": 0,
+          "y": 12546.6875,
+          "w": 1280,
+          "h": 755
+        },
+        "buttonCount": 1,
+        "cardCount": 7,
+        "slots": {
+          "heading": "Partner with BARBRI to Help Train the Next Generation of Legal Professionals",
+          "ctaCount": 1
+        },
+        "needsSmart": true
+      },
+      {
+        "index": 49,
+        "tag": "section",
+        "role": "testimonials",
+        "subrole": null,
+        "confidence": 0.4,
+        "heading": "Partner with BARBRI to Help Train the Next Generation of Legal Professionals",
+        "bounds": {
+          "x": 0,
+          "y": 12594.6875,
+          "w": 1280,
+          "h": 707
+        },
+        "buttonCount": 1,
+        "cardCount": 7,
+        "slots": {
+          "heading": "Partner with BARBRI to Help Train the Next Generation of Legal Professionals",
+          "ctaCount": 1
+        },
+        "needsSmart": true
+      },
+      {
+        "index": 50,
+        "tag": "footer",
+        "role": "footer",
+        "subrole": null,
+        "confidence": 0.95,
+        "heading": "Legal",
+        "bounds": {
+          "x": 0,
+          "y": 13301.6875,
+          "w": 1280,
+          "h": 834
+        },
+        "buttonCount": 0,
+        "cardCount": 31,
+        "slots": {
+          "heading": "Legal",
+          "subheadings": [
+            "Products",
+            "Connect"
+          ],
+          "lede": "empowering every step of the legal learning journey"
+        },
+        "needsSmart": false
+      },
+      {
+        "index": 51,
+        "tag": "section",
+        "role": "content",
+        "subrole": null,
+        "confidence": 0.3,
+        "heading": null,
+        "bounds": {
+          "x": 15,
+          "y": 13351.6875,
+          "w": 1250,
+          "h": 0
+        },
+        "buttonCount": 0,
+        "cardCount": 0,
+        "slots": {},
+        "needsSmart": true
+      },
+      {
+        "index": 52,
+        "tag": "section",
+        "role": "testimonials",
+        "subrole": null,
+        "confidence": 0.4,
+        "heading": "Legal",
+        "bounds": {
+          "x": 15,
+          "y": 13351.6875,
+          "w": 1250,
+          "h": 414
+        },
+        "buttonCount": 0,
+        "cardCount": 24,
+        "slots": {
+          "heading": "Legal",
+          "subheadings": [
+            "Products",
+            "Connect"
+          ],
+          "lede": "empowering every step of the legal learning journey"
+        },
+        "needsSmart": true
+      },
+      {
+        "index": 53,
+        "tag": "section",
+        "role": "content",
+        "subrole": null,
+        "confidence": 0.3,
+        "heading": null,
+        "bounds": {
+          "x": 0,
+          "y": 13825.6875,
+          "w": 1280,
+          "h": 210
+        },
+        "buttonCount": 0,
+        "cardCount": 7,
+        "slots": {
+          "lede": ""
+        },
+        "needsSmart": true
+      }
+    ],
+    "counts": {
+      "testimonials": 12,
+      "nav": 4,
+      "content": 17,
+      "testimonial": 12,
+      "hero": 4,
+      "cta": 2,
+      "pricing": 2,
+      "footer": 1
+    },
+    "readingOrder": [
+      "testimonials",
+      "nav",
+      "nav",
+      "nav",
+      "testimonials",
+      "content",
+      "nav",
+      "testimonials",
+      "content",
+      "content",
+      "content",
+      "content",
+      "testimonials",
+      "testimonials",
+      "content",
+      "content",
+      "testimonial",
+      "testimonial",
+      "content",
+      "content",
+      "testimonial",
+      "testimonial",
+      "hero",
+      "hero",
+      "testimonial",
+      "testimonial",
+      "content",
+      "content",
+      "testimonial",
+      "testimonial",
+      "testimonial",
+      "testimonial",
+      "testimonials",
+      "testimonials",
+      "cta",
+      "cta",
+      "content",
+      "content",
+      "testimonial",
+      "testimonial",
+      "content",
+      "content",
+      "pricing",
+      "pricing",
+      "testimonials",
+      "testimonials",
+      "hero",
+      "hero",
+      "testimonials",
+      "testimonials",
+      "footer",
+      "content",
+      "testimonials",
+      "content"
+    ]
+  }
+}
