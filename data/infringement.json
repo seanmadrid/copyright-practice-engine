@@ -2,7 +2,7 @@
   "id": "infringement",
   "name": "Copyright infringement",
   "doctrine": "copyright infringement",
-  "citation": "17 U.S.C. § 106; Feist, 499 U.S. 340",
+  "citation": "17 U.S.C. § 501; Feist, 499 U.S. 340",
   "logic": "all-of",
   "structure": "all-of",
   "anchor_case": "Feist Publications v. Rural Telephone",
