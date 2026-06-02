@@ -38,9 +38,6 @@ export default function RootLayout({
                 Copyright Practice Engine
               </span>
             </div>
-            <span className="text-xs uppercase tracking-widest text-muted-foreground">
-              Title 17 · U.S. Copyright
-            </span>
           </div>
         </header>
         <main className="container py-8">{children}</main>
