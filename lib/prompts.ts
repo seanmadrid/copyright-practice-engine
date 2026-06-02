@@ -77,7 +77,9 @@ export function generatePrompt(
     .map((u) => {
       const status = target.configuration[String(u.id)];
       const extracted = structure.units.find((e) => e.id === u.id);
-      const cues = u.cues[status] ?? Object.values(u.cues).flat();
+      const cues = extracted?.cues[status]?.length
+        ? extracted.cues[status]
+        : u.cues[status] ?? Object.values(u.cues).flat();
       const sourceFraming = extracted?.as_expressed_in_source
         ? `\n      As the source frames it: ${extracted.as_expressed_in_source}`
         : "";
