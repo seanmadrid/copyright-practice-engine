@@ -9,12 +9,15 @@ import { NextResponse } from "next/server";
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
 
-// Mirrors the source ceiling enforced downstream by /api/ingest.
-const MAX_TEXT_CHARS = 24_000;
+// Mirrors the source ceiling enforced downstream by /api/ingest. Kept generous
+// so a full case opinion or doctrine chapter is extracted in one pass: ~400k
+// chars is roughly 100k tokens, well within the extraction model's context
+// window, with headroom left for the prompt and the JSON output.
+const MAX_TEXT_CHARS = 400_000;
 const MAX_FILE_BYTES = 10 * 1024 * 1024; // 10 MB — generous for an opinion or chapter.
 
 type ParseResponse =
-  | { ok: true; text: string; chars: number; truncated: boolean }
+  | { ok: true; text: string; truncated: boolean }
   | { ok: false; error: string };
 
 function ext(name: string): string {
@@ -112,7 +115,6 @@ export async function POST(req: Request) {
     {
       ok: true,
       text: cleaned.slice(0, MAX_TEXT_CHARS),
-      chars: Math.min(cleaned.length, MAX_TEXT_CHARS),
       truncated,
     },
     { status: 200 },

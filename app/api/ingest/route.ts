@@ -14,9 +14,14 @@ import type { Doctrine, ExtractedStructure, IngestResponse } from "@/lib/types";
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
 
-const TIMEOUT_MS = 30_000;
+// A long source means more input tokens and a slower first byte, so give the
+// extraction call more room than a short paste would need.
+const TIMEOUT_MS = 90_000;
 const MIN_SOURCE_CHARS = 120;
-const MAX_SOURCE_CHARS = 24_000;
+// Generous ceiling so a full opinion or chapter is extracted whole. ~400k chars
+// is roughly 100k tokens, comfortably inside the model's context window. Kept in
+// sync with MAX_TEXT_CHARS in /api/parse-file.
+const MAX_SOURCE_CHARS = 400_000;
 
 function thinNote(doctrine: Doctrine): string {
   return `That source was thin, so we could not extract a clean ${doctrine.name.toLowerCase()} test from it and fell back to the canonical ${doctrine.name} standard. Paste a fuller case opinion or doctrine chapter for a source-grounded test.`;

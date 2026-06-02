@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo, useRef, useState } from "react";
+import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import {
   Card,
   CardContent,
@@ -18,6 +18,7 @@ import { AutoHeight } from "@/components/auto-height";
 import { ResultsPanel } from "@/components/results-panel";
 import { ExtractedStructureCard } from "@/components/extracted-structure";
 import { StructureReview } from "@/components/structure-review";
+import { useRestart } from "@/components/restart";
 import { score } from "@/lib/score";
 import { autoFocus, focusOptions } from "@/lib/data";
 import { canonicalStructure } from "@/lib/ingest";
@@ -38,7 +39,9 @@ import type {
 } from "@/lib/types";
 
 const RATIONALE_MAX = 600;
-const SOURCE_MAX = 24_000;
+// Matches the server-side source ceiling in /api/parse-file and /api/ingest, so
+// a pasted opinion or chapter is held to the same generous limit as an upload.
+const SOURCE_MAX = 400_000;
 
 const NUMBER_WORDS = ["zero", "one", "two", "three", "four", "five", "six"];
 function numberWord(n: number): string {
@@ -160,6 +163,37 @@ export function Practice({ doctrines, examples }: PracticeProps) {
     setError(null);
   }
 
+  // A full clean-slate reset back to a blank source step: clears the source
+  // text, the extracted structure, the generated hypo, and all answer state.
+  // This is the header "Start over" action, distinct from "New source" (which
+  // keeps the pasted text so it can re-run through the other doctrine).
+  const startOver = useCallback(() => {
+    setStep("source");
+    setInputTab("paste");
+    setSourceText("");
+    setLoadedExampleId(null);
+    setUploadName(null);
+    setStructure(null);
+    setThin(false);
+    setIngestNote(null);
+    setHypo(null);
+    setGenNote(null);
+    setFocusId("auto");
+    setAnswers(emptyAnswers(doctrine));
+    setConclusion(null);
+    setResult(null);
+    setClassified(null);
+    setDegraded(false);
+    setError(null);
+  }, [doctrine]);
+
+  // Publish the reset to the header. It only offers "Start over" once we are past
+  // the source step, where there is nothing yet to discard.
+  const { register } = useRestart();
+  useEffect(() => {
+    register(startOver, step !== "source");
+  }, [register, startOver, step]);
+
   // Switching doctrine changes the whole structure — reset back to the source
   // step. The pasted/uploaded text is kept so the SAME source can re-run through
   // the other structure (a cross-doctrine source becomes a factor grid one way
@@ -221,7 +255,9 @@ export function Practice({ doctrines, examples }: PracticeProps) {
         setUploadName(file.name);
         setLoadedExampleId(null);
         if (json.truncated) {
-          setError("That file was long, so we used the first 24,000 characters.");
+          setError(
+            "This file is very long, so the test was extracted from the beginning of it. If the doctrine you want is deeper in, upload just that section for a sharper read.",
+          );
         }
       }
     } catch {
@@ -495,8 +531,7 @@ export function Practice({ doctrines, examples }: PracticeProps) {
                         {uploadName}
                       </span>
                       <span className="text-xs text-muted-foreground">
-                        {sourceText.length.toLocaleString()} characters extracted ·
-                        click to choose another
+                        Click to choose another file
                       </span>
                     </>
                   ) : (
@@ -514,12 +549,11 @@ export function Practice({ doctrines, examples }: PracticeProps) {
               </div>
             )}
 
-            <div className="flex items-center justify-between">
-              <p className="text-xs text-muted-foreground">
-                {sourceText.length.toLocaleString()} characters
-              </p>
-              {error && <p className="text-xs text-destructive">{error}</p>}
-            </div>
+            {error && (
+              <div className="flex items-center justify-end">
+                <p className="text-xs text-destructive">{error}</p>
+              </div>
+            )}
 
             <Button
               className="w-full"

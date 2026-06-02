@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Nunito, Bitter } from "next/font/google";
 import { BarbriLogo } from "@/components/logo";
+import { RestartProvider, HeaderRestart } from "@/components/restart";
 import "./globals.css";
 
 // BARBRI's typefaces, extracted by designlang: Nunito (body/UI) and Bitter
@@ -30,17 +31,20 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${nunito.variable} ${bitter.variable}`}>
       <body className="min-h-screen bg-background">
-        <header className="border-b bg-background">
-          <div className="container flex items-center justify-between py-4">
-            <div className="flex items-center gap-3">
-              <BarbriLogo className="h-7 w-auto text-primary" />
-              <span className="hidden border-l pl-3 text-sm text-muted-foreground sm:inline">
-                Copyright Practice Engine
-              </span>
+        <RestartProvider>
+          <header className="border-b bg-background">
+            <div className="container flex items-center justify-between py-4">
+              <div className="flex items-center gap-3">
+                <BarbriLogo className="h-7 w-auto text-primary" />
+                <span className="hidden border-l pl-3 text-sm text-muted-foreground sm:inline">
+                  Copyright Practice Engine
+                </span>
+              </div>
+              <HeaderRestart />
             </div>
-          </div>
-        </header>
-        <main className="container py-8">{children}</main>
+          </header>
+          <main className="container py-8">{children}</main>
+        </RestartProvider>
       </body>
     </html>
   );
